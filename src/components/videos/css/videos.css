@@ -1,0 +1,40 @@
+.videos-container {
+  background-color: black;
+}
+
+.videos-container .videos-heading {
+  margin: 0px;
+  padding-top: 70px;
+  text-align: center;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 75px;
+  letter-spacing: 0.135em;
+  color: #c0c0c0;
+  margin-bottom: 70px;
+}
+
+.videos-container .main-subvideos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.videos-container .subvideos-heading {
+  margin: 0px;
+  padding-top: 70px;
+  text-align: center;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 75px;
+  letter-spacing: 0.135em;
+  color: #c0c0c0;
+  margin-bottom: 120px;
+}
+/*# sourceMappingURL=videos.css.map */
