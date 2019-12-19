@@ -1,0 +1,28 @@
+.navbar-container {
+	z-index: 1000000;
+	position: fixed;
+	width: 100%;
+	height: 40px;
+	left: 0px;
+	top: 0px;
+	background-color: black;
+	opacity: 80%;
+	backdrop-filter: blur(5px);
+	.nav-links-container {
+		width: 80%;
+		height: 35px;
+		display: flex;
+		justify-content: center;
+		margin: auto;
+		.nav-links {
+			font-family: Karla;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 1.2rem;
+			color: white;
+			text-decoration: none;
+			margin: auto;
+			transition: all 0.3s ease-in-out;
+		}
+	}
+}
