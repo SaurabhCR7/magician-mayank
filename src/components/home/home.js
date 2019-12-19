@@ -12,9 +12,9 @@ function Home() {
 			<div className="home-logo-container">
 				<img src={logo} width="200px" height="150px" />
 				<p className="logo-text">
-					MAYANK <span>SHEKHAR</span>
+					MAYANK<span> SHEKHAR</span>
 				</p>
-				<p className="sublogo-text">CLOSE-UP MAGICIAN</p>
+				<p className="sublogo-text">CLOSEUP MAGICIAN</p>
 			</div>
 			<div className="home-container">
 				<p className="home-text" data-aos="fade-up">

@@ -1,0 +1,42 @@
+.about-container {
+	margin-top: 200px;
+	.about-heading {
+		text-align: center;
+		font-family: Karla;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 4rem;
+		line-height: 75px;
+		letter-spacing: 0.135em;
+		color: #000000;
+	}
+	.about-section {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	.about-content-container {
+		display: flex;
+		flex-direction: column;
+		width: 45%;
+		.about-section-heading {
+			font-family: Karla;
+			margin: 0px;
+			padding: 0px;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 2.5rem;
+			line-height: 47px;
+			letter-spacing: 0.085em;
+			color: #000000;
+		}
+		.about-section-content {
+			font-family: poppins;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 1.3rem;
+			letter-spacing: 0.09em;
+			color: #000000;
+		}
+	}
+}

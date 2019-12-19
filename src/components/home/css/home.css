@@ -2,6 +2,7 @@
   height: 1200px;
   background-image: url("./../images/smoke.jpg");
   background-repeat: no-repeat;
+  background-color: #e3e3e3;
   background-size: 100% 100%;
 }
 
@@ -49,12 +50,13 @@
       -ms-flex-direction: column;
           flex-direction: column;
   height: 1200px;
+  margin-bottom: 0px;
   margin-top: -150px;
-  padding-top: 0px;
+  padding: 0px;
   background-image: url("./../images/mayank-pic.png");
   background-repeat: no-repeat;
-  background-size: 110% 80%;
-  background-position: center;
+  background-size: 110% 90%;
+  background-position: bottom;
 }
 
 .home-main-container .home-container .home-text {
