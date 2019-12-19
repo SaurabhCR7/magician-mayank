@@ -10,23 +10,56 @@
   padding-top: 70px;
 }
 
-.home-main-container .home-logo-container .logo-text {
+.home-main-container .home-logo-container .logo-txt-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 230px;
+  margin: 0 auto;
+  padding: 0px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.home-main-container .home-logo-container .logo-txt-container .logo-txt-mayank {
   font-family: Karla;
   font-style: normal;
   font-weight: bold;
   font-size: 1.5rem;
   color: #000000;
-  padding: 0px;
   margin: 0px;
+  width: 48%;
+  text-align: right;
 }
 
-.home-main-container .home-logo-container .logo-text span {
+.home-main-container .home-logo-container .logo-txt-container .logo-txt-shekhar {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0px;
+  padding: 0px;
+  width: 48%;
+  text-align: left;
   color: #da2426;
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 1px;
 }
 
-.home-main-container .home-logo-container .sublogo-text {
+.home-main-container .home-logo-container .sublogo-txt-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 230px;
+  margin: 0 auto;
+  padding: 0px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.home-main-container .home-logo-container .sublogo-txt-container .sublogo-txt-closeup {
   font-family: Karla;
   font-style: normal;
   font-weight: bold;
@@ -36,6 +69,22 @@
   margin: 0px;
   padding: 0px;
   color: rgba(255, 255, 255, 0.5);
+  width: 48%;
+  text-align: right;
+}
+
+.home-main-container .home-logo-container .sublogo-txt-container .sublogo-txt-magician {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 20px;
+  letter-spacing: 0.085em;
+  margin: 0px;
+  padding: 0px;
+  color: rgba(255, 255, 255, 0.5);
+  width: 48%;
+  text-align: left;
 }
 
 .home-main-container .home-container {

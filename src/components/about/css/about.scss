@@ -1,5 +1,6 @@
 .about-container {
 	margin-top: 200px;
+	overflow-x: hidden;
 	.about-heading {
 		text-align: center;
 		font-family: Karla;
@@ -19,7 +20,7 @@
 	.about-content-container {
 		display: flex;
 		flex-direction: column;
-		width: 45%;
+		width: 46%;
 		.about-section-heading {
 			font-family: Karla;
 			margin: 0px;
@@ -36,7 +37,7 @@
 			font-family: poppins;
 			font-style: normal;
 			font-weight: normal;
-			font-size: 1.3rem;
+			font-size: 1.2rem;
 			letter-spacing: 0.1em;
 			text-align: left;
 			color: #000000;
