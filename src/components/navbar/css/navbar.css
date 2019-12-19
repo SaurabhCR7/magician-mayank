@@ -5,7 +5,7 @@
   height: 40px;
   left: 0px;
   top: 0px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .navbar-container .nav-links-container {
