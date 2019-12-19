@@ -19,13 +19,13 @@ function About() {
 					width="45%"
 					height="40%"
 					data-aos="fade-right"
-					data-aos-delay="70"
+					data-aos-delay="50"
 					data-aos-duration="1200"
 				/>
 				<div
 					className="about-content-container"
 					data-aos="fade-left"
-					data-aos-delay="70"
+					data-aos-delay="50"
 					data-aos-duration="1200"
 				>
 					<p className="about-section-heading">MAYANK SHEKHAR</p>

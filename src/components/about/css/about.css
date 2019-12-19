@@ -11,6 +11,7 @@
   line-height: 75px;
   letter-spacing: 0.135em;
   color: #000000;
+  margin-bottom: 70px;
 }
 
 .about-container .about-section {
@@ -46,6 +47,7 @@
   font-size: 2.5rem;
   line-height: 47px;
   letter-spacing: 0.085em;
+  text-align: left;
   color: #000000;
 }
 
@@ -54,7 +56,8 @@
   font-style: normal;
   font-weight: normal;
   font-size: 1.3rem;
-  letter-spacing: 0.09em;
+  letter-spacing: 0.1em;
+  text-align: left;
   color: #000000;
 }
 /*# sourceMappingURL=about.css.map */
