@@ -17,7 +17,7 @@ function Navbar() {
 		<div className="navbar-container">
 			<div className="nav-links-container">
 				<a
-					href="#"
+					href="/"
 					className="nav-links"
 					style={style1}
 					onMouseEnter={() => {
@@ -40,7 +40,7 @@ function Navbar() {
 					HOME
 				</a>
 				<a
-					href="#"
+					href="/"
 					className="nav-links"
 					style={style2}
 					onMouseEnter={() => {
@@ -63,7 +63,7 @@ function Navbar() {
 					ABOUT
 				</a>
 				<a
-					href="#"
+					href="/"
 					className="nav-links"
 					style={style3}
 					onMouseEnter={() => {
@@ -86,7 +86,7 @@ function Navbar() {
 					VIDEOS
 				</a>
 				<a
-					href="#"
+					href="/"
 					className="nav-links"
 					style={style4}
 					onMouseEnter={() => {
@@ -109,7 +109,7 @@ function Navbar() {
 					GALLERY
 				</a>
 				<a
-					href="#"
+					href="/"
 					className="nav-links"
 					style={style5}
 					onMouseEnter={() => {
@@ -132,7 +132,7 @@ function Navbar() {
 					TESTIMONIALS
 				</a>
 				<a
-					href="#"
+					href="/"
 					className="nav-links"
 					style={style6}
 					onMouseEnter={() => {
@@ -155,7 +155,7 @@ function Navbar() {
 					CONTACT
 				</a>
 				<a
-					href="#"
+					href="/"
 					className="nav-links"
 					style={style7}
 					onMouseEnter={() => {
