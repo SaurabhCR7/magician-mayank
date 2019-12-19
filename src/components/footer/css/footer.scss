@@ -1,0 +1,22 @@
+.footer-container {
+	background-color: black;
+	height: 100px;
+	width: 100%;
+	.footer-inner-container {
+		margin: 0 auto;
+		height: 100%;
+		width: 90%;
+		display: flex;
+		justify-content: space-between;
+		.footer-txt {
+			font-family: Roboto;
+			font-size: 1.1rem;
+			line-height: 23px;
+			display: flex;
+			align-items: center;
+			text-align: center;
+			letter-spacing: 0.095em;
+			color: #ededed;
+		}
+	}
+}

@@ -4,18 +4,20 @@
 	background-size: 100% 100%;
 	background-attachment: fixed;
 	width: 100%;
+	display: flex;
+	align-items: center;
+	text-align: center;
 	.quote-text {
 		height: 100%;
-    width: 80%;
-    margin: 0 auto;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		font-family: EB Garamond;
 		font-style: normal;
 		font-weight: 500;
 		font-size: 36px;
 		line-height: 47px;
-		display: flex;
-		align-items: center;
-		text-align: center;
 		letter-spacing: 0.085em;
 		color: #f9f9f9;
 	}

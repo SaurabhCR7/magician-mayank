@@ -1,5 +1,6 @@
 .videos-container {
   background-color: black;
+  overflow-x: hidden;
 }
 
 .videos-container .videos-heading {

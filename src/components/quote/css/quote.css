@@ -4,17 +4,6 @@
   background-size: 100% 100%;
   background-attachment: fixed;
   width: 100%;
-}
-
-.quote-container .quote-text {
-  height: 100%;
-  width: 80%;
-  margin: 0 auto;
-  font-family: EB Garamond;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 47px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,6 +11,25 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+}
+
+.quote-container .quote-text {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: EB Garamond;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 47px;
   letter-spacing: 0.085em;
   color: #f9f9f9;
 }

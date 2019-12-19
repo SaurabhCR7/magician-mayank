@@ -31,7 +31,7 @@ function About() {
 					<p className="about-section-heading">MAYANK SHEKHAR</p>
 					<p className="about-section-content">
 						Mayank Shekhar, is a Close-up Illusionist based in New Delhi, India.
-						Heavily inspired by the famous film series " Harry Potter ", He
+						Heavily inspired by the famous film series "Harry Potter", He
 						started doing magic at the age of 16. <br />
 						<br />
 						His style of Magic is unique and unlike any other performer out
@@ -43,7 +43,7 @@ function About() {
 						He has been fortunately blowing people's mind through his
 						extraordinary Sleight of Hand Artistry at National and Abroad Venues
 						for 5 years. And at such young age, he has established himself as an
-						" International Magic Creator " by releasing his original creations
+						"International Magic Creator" by releasing his original creations
 						of magic tricks on a global platform.
 					</p>
 				</div>
