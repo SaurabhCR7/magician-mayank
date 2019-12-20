@@ -9,7 +9,7 @@ import Test4 from './images/test4.jpg';
 
 function Testimonials() {
 	return (
-		<div className="testimonials-container">
+		<div className="testimonials-container" id="testimonials">
 			<p
 				className="testimonials-heading"
 				data-aos="fade-up"

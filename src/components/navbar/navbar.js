@@ -112,6 +112,7 @@ function Navbar() {
 				</AnchorLink>
 				<AnchorLink
 					href="#testimonials"
+					offset="100"
 					className="nav-links"
 					style={style5}
 					onMouseEnter={() => {
