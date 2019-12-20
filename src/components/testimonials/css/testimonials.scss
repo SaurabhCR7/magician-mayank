@@ -1,0 +1,20 @@
+.testimonials-container{
+  overflow: hidden;
+  .testimonials-heading{
+    text-align: center;
+		font-family: Karla;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 4rem;
+		line-height: 75px;
+		letter-spacing: 0.135em;
+		color: #000000;
+    margin: 0px;
+    padding: 0px;
+  }
+  .testimonials-subcontainer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,62 @@
+.testimonials-box-container {
+  width: 20%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.testimonials-box-container .testimonials-pic {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.testimonials-box-container .testimonials-quote {
+  text-align: center;
+  font-size: 0.7rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.085em;
+  color: #181818;
+  height: 80px;
+  margin: 20px 0px 0px 0px;
+  text-align: center;
+}
+
+.testimonials-box-container .testimonials-name {
+  margin: 0px;
+  font-size: 1.1rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.085em;
+  color: #292929;
+  height: 50px;
+}
+
+.testimonials-box-container .testimonials-link {
+  font-size: 0.7rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.085em;
+  color: #292929;
+  margin: 0px;
+  height: 30px;
+}
+
+.testimonials-box-container .blank-space {
+  margin: 0px;
+  height: 30px;
+}
+/*# sourceMappingURL=testimonialsBox.css.map */

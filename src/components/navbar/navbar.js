@@ -111,7 +111,7 @@ function Navbar() {
 					GALLERY
 				</AnchorLink>
 				<AnchorLink
-					href="#gallery"
+					href="#testimonials"
 					className="nav-links"
 					style={style5}
 					onMouseEnter={() => {

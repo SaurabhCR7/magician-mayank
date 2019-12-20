@@ -11,6 +11,7 @@ import Footer from './components/footer/footer';
 import Social from './components/social/social';
 import Book from './components/book/book';
 import Contact from './components/contact/contact';
+import Testimonials from './components/testimonials/testimonials';
 
 import Background1 from './components/quote/images/background1.png';
 import Background2 from './components/quote/images/background2.png';
@@ -29,7 +30,7 @@ function App() {
 			<Quote text={'" Illusion is all about creating a moment of wonder & Astonishment. "'} img={Background2}/>
 			<Gallery />
 			<Quote text={'" Those  who  do  not  believe  in  Magic  will  never  find  it. "'} img={Background3}/>
-
+			<Testimonials />
 			<Quote text={'" Magic becomes Art when it has nothing to hide. "'} img={Background4}/>
 			<Contact />
 			<Quote text={'" The #1 Sleight of Hand Artist in the World. "'} img={Background5}/>
