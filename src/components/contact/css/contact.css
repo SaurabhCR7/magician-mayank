@@ -1,0 +1,40 @@
+.contact-container {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.contact-container .contact-heading {
+  margin-top: 0px;
+  text-align: center;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 75px;
+  letter-spacing: 0.135em;
+  color: #000000;
+  margin-bottom: 110px;
+}
+
+.contact-container .contact-card-container {
+  margin: 0 auto;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact-container .contact-card-container img {
+  border-radius: 12px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-container .contact-card-container img:hover {
+  -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+/*# sourceMappingURL=contact.css.map */

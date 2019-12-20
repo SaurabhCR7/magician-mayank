@@ -99,8 +99,8 @@
   color: #000000;
   margin-bottom: 70px;
   cursor: pointer;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out !important;
+  transition: all 0.5s ease-in-out !important;
 }
 
 .book-container form .book-submit-btn:hover {
