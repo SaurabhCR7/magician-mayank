@@ -1,6 +1,8 @@
-.gallery-container{
-  .gallery-heading{
-    text-align: center;
+.gallery-container {
+	overflow: hidden;
+	.gallery-heading {
+		cursor: default;
+		text-align: center;
 		font-family: Karla;
 		font-style: normal;
 		font-weight: bold;
@@ -8,7 +10,74 @@
 		line-height: 75px;
 		letter-spacing: 0.135em;
 		color: #000000;
-    margin: 0px;
-    padding: 0px;
-  }
+		margin: 0px 0px 100px 0px;
+		padding: 0px;
+	}
+	.gallery-main-section {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		margin-bottom: 80px;
+		.gallery-left-images {
+			width: 59.2%;
+			overflow: hidden;
+			img {
+				transition: transform 0.25s, visibility 0.25s ease-in;
+			}
+			img:hover {
+				transform: scale(1.05);
+			}
+		}
+		.gallery-right-images {
+			width: 40%;
+			display: flex;
+			flex-direction: column;
+			overflow: hidden;
+			img:nth-child(1){
+				transform-origin: bottom;
+				transition:  transform 0.25s, visibility 0.25s ease-in;
+			}
+			img:nth-child(1):hover{
+				transform: scale(1.05);
+			}
+			img:nth-child(2){
+				transform-origin: top;
+				transition:  transform 0.25s, visibility 0.25s ease-in;
+			}
+			img:nth-child(2):hover{
+				transform: scale(1.05);
+			}
+		}
+	}
+	.gallery-view-btn {
+		padding: 20px;
+		margin: 0 auto;
+		border: 1px solid black;
+		background-color: transparent;
+		font-family: Karla;
+		font-style: normal;
+		font-size: 1rem;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		letter-spacing: 0.085em;
+		color: #000000;
+		transition: all 0.3s ease-in-out;
+		cursor: pointer;
+		i {
+			transition: all 0.1s ease-in-out;
+		}
+	}
+	.gallery-view-btn:hover {
+		color: white;
+		background-color: black;
+	}
+	.gallery-subsection{
+		margin-top: 100px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		transition: all 0.5s ease-in-out!important;
+	}
 }

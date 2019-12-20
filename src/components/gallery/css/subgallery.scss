@@ -1,0 +1,19 @@
+.subgallery-container {
+	margin-bottom: 10px;
+	height: 300px;
+	width: 32.7%;
+	border: 1px solid black;
+	overflow: hidden;
+	.subgallery-overlay {
+    overflow: hidden;
+		background-color: #f4f1f1;
+		opacity: 60%;
+		height: 80px;
+		margin-top: 230px;
+		padding: 15px 0px 15px 0px;
+		font-size: 1.6rem;
+		letter-spacing: 0.4em;
+		text-align: center;
+		transition: all 0.3s ease-in-out;
+	}
+}
