@@ -4,7 +4,7 @@ import aboutImg from './images/about.jpg';
 
 function About() {
 	return (
-		<div className="about-container">
+		<div className="about-container" id="about" >
 			<p
 				className="about-heading"
 				data-aos="fade-up"

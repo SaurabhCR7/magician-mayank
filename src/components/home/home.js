@@ -8,27 +8,27 @@ AOS.init();
 
 function Home() {
 	return (
-		<div className="home-main-container">
+		<div className="home-main-container" id="home">
 			<div className="home-logo-container">
 				<img
 					src={logo}
 					width="140px"
 					height="100px"
 					data-aos="fade-down"
-					data-aos-duration="1500"
+					data-aos-duration="800"
 				/>
 				<div className="logo-txt-container">
 					<div
 						className="logo-txt-mayank"
 						data-aos="fade-right"
-						data-aos-duration="1300"
+						data-aos-duration="900"
 					>
 						MAYANK
 					</div>
 					<div
 						className="logo-txt-shekhar"
 						data-aos="fade-left"
-						data-aos-duration="1300"
+						data-aos-duration="900"
 					>
 						SHEKHAR
 					</div>
@@ -38,7 +38,7 @@ function Home() {
 						className="sublogo-txt-closeup"
 						data-aos="fade-up-right"
 						data-aos-delay="80"
-						data-aos-duration="1500"
+						data-aos-duration="1000"
 					>
 						CLOSE-UP
 					</div>
@@ -46,7 +46,7 @@ function Home() {
 						className="sublogo-txt-magician"
 						data-aos="fade-up-left"
 						data-aos-delay="80"
-						data-aos-duration="1500"
+						data-aos-duration="1000"
 					>
 						MAGICIAN
 					</div>

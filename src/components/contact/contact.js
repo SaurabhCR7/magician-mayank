@@ -8,7 +8,7 @@ import Instagram from './images/instagram.png';
 
 function Contact() {
 	return (
-		<div className="contact-container">
+		<div className="contact-container" id="contact">
 			<p className="contact-heading" data-aos="fade-up">
 				CONTACT
 			</p>

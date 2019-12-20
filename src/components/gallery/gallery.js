@@ -3,7 +3,7 @@ import './css/gallery.css';
 
 function Gallery() {
 	return (
-		<div className="gallery-container">
+		<div className="gallery-container" id="gallery">
 			<p
 				className="gallery-heading"
 				data-aos="fade-up"

@@ -3,11 +3,8 @@ import TrackVisibility from 'react-on-screen';
 import ReactPlayer from 'react-player';
 import './css/videos.css';
 
- 
-	
 function Videos() {
  const [shouldPlay, updatePlayState] = useState(false);
-
 	const Player = (props) => {
 		updatePlayState(props.isVisible);
 		return (
@@ -24,7 +21,7 @@ function Videos() {
 		);
 	};
 	return (
-		<div className="videos-container">
+		<div className="videos-container" id="videos">
 			<p
 				className="videos-heading"
 				data-aos="fade-up"

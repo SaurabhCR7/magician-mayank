@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import './css/navbar.css';
 
 const inactiveStyle = {
@@ -16,8 +17,8 @@ function Navbar() {
 	return (
 		<div className="navbar-container">
 			<div className="nav-links-container">
-				<a
-					href="/"
+				<AnchorLink
+					href="#home"
 					className="nav-links"
 					style={style1}
 					onMouseEnter={() => {
@@ -38,9 +39,9 @@ function Navbar() {
 					}}
 				>
 					HOME
-				</a>
-				<a
-					href="/"
+				</AnchorLink>
+				<AnchorLink
+					href="#about"
 					className="nav-links"
 					style={style2}
 					onMouseEnter={() => {
@@ -61,9 +62,9 @@ function Navbar() {
 					}}
 				>
 					ABOUT
-				</a>
-				<a
-					href="/"
+				</AnchorLink>
+				<AnchorLink
+					href="#videos"
 					className="nav-links"
 					style={style3}
 					onMouseEnter={() => {
@@ -84,9 +85,10 @@ function Navbar() {
 					}}
 				>
 					VIDEOS
-				</a>
-				<a
-					href="/"
+				</AnchorLink>
+				<AnchorLink
+					href="#gallery"
+					offset="100"
 					className="nav-links"
 					style={style4}
 					onMouseEnter={() => {
@@ -107,9 +109,9 @@ function Navbar() {
 					}}
 				>
 					GALLERY
-				</a>
-				<a
-					href="/"
+				</AnchorLink>
+				<AnchorLink
+					href="#gallery"
 					className="nav-links"
 					style={style5}
 					onMouseEnter={() => {
@@ -130,9 +132,10 @@ function Navbar() {
 					}}
 				>
 					TESTIMONIALS
-				</a>
-				<a
-					href="/"
+				</AnchorLink>
+				<AnchorLink
+					href="#contact"
+					offset="100"
 					className="nav-links"
 					style={style6}
 					onMouseEnter={() => {
@@ -153,9 +156,10 @@ function Navbar() {
 					}}
 				>
 					CONTACT
-				</a>
-				<a
-					href="/"
+				</AnchorLink>
+				<AnchorLink
+					href="#book"
+					offset="100"
 					className="nav-links"
 					style={style7}
 					onMouseEnter={() => {
@@ -176,7 +180,7 @@ function Navbar() {
 					}}
 				>
 					BOOK
-				</a>
+				</AnchorLink>
 			</div>
 		</div>
 	);
