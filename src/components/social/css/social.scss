@@ -1,0 +1,71 @@
+.social-container {
+	background-color: #1e1d23;
+	padding: 10px 10px 70px 10px;
+	.social-heading {
+		margin-bottom: 50px;
+		width: 100%;
+		font-family: Karla;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 2rem;
+		text-align: center;
+		letter-spacing: 0.1em;
+		color: #8f9595;
+	}
+	.social-links-container {
+		margin: 0 auto;
+		width: 70%;
+		display: flex;
+    justify-content: space-around;
+		.social-link {
+			border-radius: 50%;
+			background-color: white;
+			height: 80px;
+			width: 80px;
+			text-decoration: none;
+			display: flex;
+			align-self: center;
+			text-align: center;
+			transition: all 0.5s ease!important;
+			i {
+				margin: 0 auto;
+				display: flex;
+				align-self: center;
+				text-align: center;
+				font-size: 2rem;
+				color: #1e1d23;
+				transition: all 0.5s ease;
+			}
+		}
+		.social-link:nth-child(1):hover {
+			background-color: rgb(45, 114, 182);
+			i {
+				color: white;
+			}
+		}
+		.social-link:nth-child(2):hover {
+			background-color: rgb(214, 8, 169);
+			i {
+				color: white;
+			}
+		}
+		.social-link:nth-child(3):hover {
+			background-color: dodgerblue;
+			i {
+				color: white;
+			}
+		}
+		.social-link:nth-child(4):hover {
+			background-color: rgb(20, 90, 160);
+			i {
+				color: white;
+			}
+		}
+		.social-link:nth-child(5):hover {
+			background-color: rgb(209, 66, 66);
+			i {
+				color: white;
+			}
+		}
+	}
+}

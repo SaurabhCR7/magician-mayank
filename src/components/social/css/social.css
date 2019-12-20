@@ -1,0 +1,97 @@
+.social-container {
+  background-color: #1e1d23;
+  padding: 10px 10px 70px 10px;
+}
+
+.social-container .social-heading {
+  margin-bottom: 50px;
+  width: 100%;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #8f9595;
+}
+
+.social-container .social-links-container {
+  margin: 0 auto;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.social-container .social-links-container .social-link {
+  border-radius: 50%;
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  text-align: center;
+  -webkit-transition: all 0.5s ease !important;
+  transition: all 0.5s ease !important;
+}
+
+.social-container .social-links-container .social-link i {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  text-align: center;
+  font-size: 2rem;
+  color: #1e1d23;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.social-container .social-links-container .social-link:nth-child(1):hover {
+  background-color: #2d72b6;
+}
+
+.social-container .social-links-container .social-link:nth-child(1):hover i {
+  color: white;
+}
+
+.social-container .social-links-container .social-link:nth-child(2):hover {
+  background-color: #d608a9;
+}
+
+.social-container .social-links-container .social-link:nth-child(2):hover i {
+  color: white;
+}
+
+.social-container .social-links-container .social-link:nth-child(3):hover {
+  background-color: dodgerblue;
+}
+
+.social-container .social-links-container .social-link:nth-child(3):hover i {
+  color: white;
+}
+
+.social-container .social-links-container .social-link:nth-child(4):hover {
+  background-color: #145aa0;
+}
+
+.social-container .social-links-container .social-link:nth-child(4):hover i {
+  color: white;
+}
+
+.social-container .social-links-container .social-link:nth-child(5):hover {
+  background-color: #d14242;
+}
+
+.social-container .social-links-container .social-link:nth-child(5):hover i {
+  color: white;
+}
+/*# sourceMappingURL=social.css.map */

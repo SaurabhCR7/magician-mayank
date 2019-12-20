@@ -63,7 +63,7 @@
   font-family: Karla;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 20px;
   letter-spacing: 0.08em;
   margin: 0px;
@@ -74,14 +74,14 @@
 }
 
 .home-main-container .home-logo-container .sublogo-txt-container .sublogo-txt-magician {
+  padding: 0px 0px 0px 10px;
   font-family: Karla;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 20px;
   letter-spacing: 0.15em;
   margin: 0px;
-  padding: 0px;
   color: rgba(255, 255, 255, 0.5);
   width: 48%;
   text-align: left;

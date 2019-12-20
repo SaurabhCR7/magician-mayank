@@ -8,6 +8,8 @@ import Quote from './components/quote/quote';
 import Videos from './components/videos/videos';
 import Gallery from './components/gallery/gallery';
 import Footer from './components/footer/footer';
+import Social from './components/social/social';
+
 import Background1 from './components/quote/images/background1.png';
 import Background2 from './components/quote/images/background2.png';
 import Background3 from './components/quote/images/background3.jpg';
@@ -30,7 +32,7 @@ function App() {
 
 			<Quote text={'" The #1 Sleight of Hand Artist in the World. "'} img={Background5}/>
 			
-			
+			<Social />
 			<Footer />
 		</div>
 	);
