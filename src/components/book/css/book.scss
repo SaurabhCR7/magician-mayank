@@ -1,0 +1,83 @@
+.book-container {
+	.book-heading {
+		cursor: default;
+		text-align: center;
+		font-family: Karla;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 4rem;
+		line-height: 75px;
+		letter-spacing: 0.135em;
+		color: #000000;
+		margin: 0px;
+		padding: 0px;
+	}
+	form {
+		width: 80%;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		.book-subform {
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 20px;
+			input {
+				font-family: Poppins;
+				font-style: normal;
+				font-weight: 300;
+				font-size: 1.1rem;
+				line-height: 54px;
+				display: flex;
+				align-items: center;
+				letter-spacing: 0.085em;
+				color: #5c5c5c;
+				padding-left: 10px;
+				background: #f8f8f8;
+				border: 3px solid #000000;
+				box-sizing: border-box;
+				border-radius: 5px;
+				width: 49%;
+				height: 50px;
+			}
+		}
+		textarea {
+			margin-bottom: 70px;
+			font-family: Poppins;
+			font-style: normal;
+			font-weight: 300;
+			font-size: 1.1rem;
+			line-height: 54px;
+			display: flex;
+			align-items: center;
+			letter-spacing: 0.085em;
+			color: #5c5c5c;
+			padding-left: 10px;
+			background: #f8f8f8;
+			border: 3px solid #000000;
+			box-sizing: border-box;
+			border-radius: 5px;
+		}
+		.book-submit-btn {
+			margin: 0 auto;
+			padding: 15px 0px 15px 0px;
+			background-color: transparent;
+			border: 1px solid black;
+			width: 160px;
+			font-family: Karla;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 1.2rem;
+			text-align: center;
+			letter-spacing: 0.085em;
+			color: #000000;
+			margin-bottom: 70px;
+			cursor: pointer;
+			transition: all 0.5s ease-in-out;
+		}
+		.book-submit-btn:hover {
+			background-color: #000000;
+			color: white;
+		}
+	}
+}

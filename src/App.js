@@ -9,6 +9,7 @@ import Videos from './components/videos/videos';
 import Gallery from './components/gallery/gallery';
 import Footer from './components/footer/footer';
 import Social from './components/social/social';
+import Book from './components/book/book';
 
 import Background1 from './components/quote/images/background1.png';
 import Background2 from './components/quote/images/background2.png';
@@ -31,7 +32,7 @@ function App() {
 			<Quote text={'" Magic becomes Art when it has nothing to hide. "'} img={Background4}/>
 
 			<Quote text={'" The #1 Sleight of Hand Artist in the World. "'} img={Background5}/>
-			
+			<Book />
 			<Social />
 			<Footer />
 		</div>
