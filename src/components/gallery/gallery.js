@@ -64,7 +64,6 @@ function Gallery() {
 			<button
 				className="gallery-view-btn"
 				onClick={handleViewBtn}
-				data-aos="fade-up"
 			>
 				VIEW MORE &nbsp;{' '}
 				<i
