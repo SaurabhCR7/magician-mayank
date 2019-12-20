@@ -1,7 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
+import TrackVisibility from 'react-on-screen';
+import ReactPlayer from 'react-player';
 import './css/videos.css';
 
+ 
+	
 function Videos() {
+ const [shouldPlay, updatePlayState] = useState(false);
+
+	const Player = (props) => {
+		updatePlayState(props.isVisible);
+		return (
+			<ReactPlayer
+				url="https://youtu.be/EWaNLBq-VgM"
+				width="100%"
+				height="90vh"
+				playing={shouldPlay}
+				loop="true"
+				controls="false"
+				muted="true"
+				forceVideo="true"
+			/>
+		);
+	};
 	return (
 		<div className="videos-container">
 			<p
@@ -12,14 +33,9 @@ function Videos() {
 			>
 				VIDEOS
 			</p>
-			<iframe
-				id="existing-iframe-example"
-				width="100%"
-				height="600px"
-				src="https://www.youtube.com/embed/EWaNLBq-VgM?autoplay=1&mute=1&enablejsapi=1"
-				frameborder="0"
-				allowFullScreen
-			></iframe>
+			<TrackVisibility>
+				{Player}
+			</TrackVisibility>
 			<br />
 			<br />
 			<br />
