@@ -13,6 +13,10 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .quote-container .quote-text {
@@ -38,6 +42,25 @@
   color: #f9f9f9;
 }
 
+.quote-container .quote-author {
+  margin-top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: EB Garamond;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  letter-spacing: 0.085em;
+  color: #f9f9f9;
+}
+
 @media screen and (max-width: 550px) {
   .quote-container {
     height: 150px;
@@ -47,6 +70,13 @@
   .quote-container .quote-text {
     font-size: 0.9rem;
     letter-spacing: 0.1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 20px;
+  }
+  .quote-container .quote-author {
+    font-size: 0.8rem;
+    margin-top: -50px;
   }
 }
 /*# sourceMappingURL=quote.css.map */

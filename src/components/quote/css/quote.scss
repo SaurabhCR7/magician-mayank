@@ -9,6 +9,7 @@
 	display: flex;
 	align-items: center;
 	text-align: center;
+	flex-direction: column;
 	.quote-text {
 		margin-top: 50px;
 		margin-bottom: 50px;
@@ -25,6 +26,18 @@
 		letter-spacing: 0.085em;
 		color: #f9f9f9;
 	}
+	.quote-author{
+		margin-top: 0px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: EB Garamond;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 1.8rem;
+		letter-spacing: 0.085em;
+		color: #f9f9f9;
+	}
 }
 
 @media screen and (max-width: 550px) {
@@ -35,6 +48,13 @@
 		.quote-text {
 			font-size: 0.9rem;
 			letter-spacing: 0.1em;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			line-height: 20px;
+		}
+		.quote-author{
+			font-size: 0.8rem;
+			margin-top: -50px;
 		}
 	}
 }

@@ -28,8 +28,9 @@ function App() {
 			<About />
 			<Quote
 				text={
-					'" Magic Lies in your Imagination, My job is to bring that imagination into life. " ' + '\n'+'~Mayank Shekhar'  
+					'" Magic Lies in your Imagination, My job is to bring that imagination into life. " '  
 				}
+				author={'~Mayank Shekhar'}
 				img={Background1}
 			/>
 			<Videos />
