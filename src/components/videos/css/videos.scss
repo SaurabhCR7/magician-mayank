@@ -17,6 +17,10 @@
 	.main-subvideos {
 		display: flex;
 		justify-content: space-around;
+		iframe{
+				width:49%;
+				height:400px;
+			}
 	}
 	.subvideos-heading {
 		margin: 0px;
@@ -30,5 +34,28 @@
 		letter-spacing: 0.135em;
 		color: #c0c0c0;
 		margin-bottom: 120px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.videos-container{
+		.videos-heading{
+		font-size: 1.8rem;
+		padding-top: 50px;
+		margin-bottom: 50px;
+		}
+		.main-subvideos{
+			iframe{
+				width:48%;
+				height:150px;
+			}
+			
+		}
+		.subvideos-heading{
+			line-height:40px ;
+			font-size: 1.8rem;
+			margin-bottom: 60px;
+			padding-top: 60px;
+		}
 	}
 }

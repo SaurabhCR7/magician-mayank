@@ -11,7 +11,7 @@ function Videos() {
 			<ReactPlayer
 				url="https://youtu.be/EWaNLBq-VgM"
 				width="100%"
-				height="90vh"
+				height="80vh"
 				playing={shouldPlay}
 				loop="true"
 				controls="false"
@@ -30,7 +30,7 @@ function Videos() {
 			>
 				VIDEOS
 			</p>
-			<TrackVisibility>
+			<TrackVisibility className="trackVisibility">
 				{Player}
 			</TrackVisibility>
 			<br />
@@ -41,8 +41,6 @@ function Videos() {
 			<div className="main-subvideos">
 				<iframe
 					data-aos="fade-right"
-					width="49%"
-					height="400px"
 					src="https://www.youtube.com/embed/hZhcCu-uzD4"
 					frameborder="1"
 					allow="accelerometer; autoplay; encrypted-media;"
@@ -50,8 +48,6 @@ function Videos() {
 				></iframe>
 				<iframe
 					data-aos="fade-left"
-					width="49%"
-					height="400px"
 					src="https://www.youtube.com/embed/f0QHG-sVhZo"
 					frameborder="1"
 					allow="accelerometer; autoplay; encrypted-media;"
@@ -72,8 +68,6 @@ function Videos() {
 			<div className="main-subvideos">
 				<iframe
 					data-aos="fade-right"
-					width="49%"
-					height="400px"
 					src="https://www.youtube.com/embed/hq27x612hwI"
 					frameborder="1"
 					allow="accelerometer; autoplay; encrypted-media;"
@@ -81,8 +75,6 @@ function Videos() {
 				></iframe>
 				<iframe
 					data-aos="fade-left"
-					width="49%"
-					height="400px"
 					src="https://www.youtube.com/embed/iHUVKQV8mPc"
 					frameborder="1"
 					allow="accelerometer; autoplay; encrypted-media;"

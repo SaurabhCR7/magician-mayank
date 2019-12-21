@@ -25,6 +25,11 @@
       justify-content: space-around;
 }
 
+.videos-container .main-subvideos iframe {
+  width: 49%;
+  height: 400px;
+}
+
 .videos-container .subvideos-heading {
   margin: 0px;
   padding-top: 70px;
@@ -37,5 +42,23 @@
   letter-spacing: 0.135em;
   color: #c0c0c0;
   margin-bottom: 120px;
+}
+
+@media screen and (max-width: 600px) {
+  .videos-container .videos-heading {
+    font-size: 1.8rem;
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+  .videos-container .main-subvideos iframe {
+    width: 48%;
+    height: 150px;
+  }
+  .videos-container .subvideos-heading {
+    line-height: 40px;
+    font-size: 1.8rem;
+    margin-bottom: 60px;
+    padding-top: 60px;
+  }
 }
 /*# sourceMappingURL=videos.css.map */
