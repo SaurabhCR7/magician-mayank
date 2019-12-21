@@ -110,6 +110,9 @@
 }
 
 @media screen and (max-width: 420px) {
+  .social-container .social-links-container {
+    width: 90%;
+  }
   .social-container .social-links-container .social-link {
     height: 40px;
     width: 40px;

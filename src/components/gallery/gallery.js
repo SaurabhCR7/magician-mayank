@@ -74,7 +74,7 @@ function Gallery() {
 			<div className="gallery-subsection" style={{display:`${showSub}`}} >
 				<SubGallery image={p1} title={'NSUT'}  />
 				<SubGallery image={p2} title={'THEATRE'} />
-				<SubGallery image={p3} title={'STAGE'} />
+				<SubGallery image={p3} title={'IITF 2019'} />
 				<SubGallery image={p4} title={'IIT-D'} />
 				<SubGallery image={p5} title={'MAYA MAYA'} />
 				<SubGallery image={p6} title={'CLOSE UP'} />
