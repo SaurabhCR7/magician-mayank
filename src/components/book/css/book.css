@@ -110,7 +110,7 @@
 
 @media screen and (max-width: 500px) {
   .book-container .book-heading {
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 0px;
   }
   .book-container form {

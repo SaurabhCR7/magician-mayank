@@ -10,7 +10,6 @@
   font-style: normal;
   font-weight: bold;
   font-size: 4rem;
-  line-height: 75px;
   letter-spacing: 0.135em;
   color: #000000;
   margin-bottom: 110px;
@@ -36,5 +35,32 @@
 .contact-container .contact-card-container img:hover {
   -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 1050px) {
+  .contact-container .contact-card-container img {
+    height: 230px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contact-container .contact-card-container img {
+    height: 150px;
+    width: 100px;
+    border-radius: 6px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .contact-container .contact-heading {
+    font-size: 1.8rem;
+    margin-bottom: 100px;
+  }
+  .contact-container .contact-card-container img {
+    height: 100px;
+    width: 70px;
+    border-radius: 5px;
+  }
 }
 /*# sourceMappingURL=contact.css.map */

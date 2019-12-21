@@ -1,4 +1,6 @@
 .quote-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
   height: 200px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -14,6 +16,8 @@
 }
 
 .quote-container .quote-text {
+  margin-top: 50px;
+  margin-bottom: 50px;
   height: 100%;
   width: 100%;
   display: -webkit-box;
@@ -28,9 +32,19 @@
   font-family: EB Garamond;
   font-style: normal;
   font-weight: 500;
-  font-size: 36px;
+  font-size: 2rem;
   line-height: 47px;
   letter-spacing: 0.085em;
   color: #f9f9f9;
+}
+
+@media screen and (max-width: 550px) {
+  .quote-container {
+    height: 150px;
+  }
+  .quote-container .quote-text {
+    font-size: 0.9rem;
+    letter-spacing: 0.1em;
+  }
 }
 /*# sourceMappingURL=quote.css.map */
