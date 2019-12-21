@@ -20,3 +20,33 @@
 		}
 	}
 }
+@media screen and (max-width: 960px) {
+  .footer-container {
+	height: 50px;
+	.footer-inner-container {
+		.footer-txt {
+			font-size: 0.8rem;
+		}
+	}
+}
+}
+@media screen and (max-width: 600px) {
+  .footer-container {
+	height: 50px;
+	.footer-inner-container {
+		.footer-txt {
+			font-size: 0.6rem;
+		}
+	}
+}
+}
+@media screen and (max-width: 450px) {
+  .footer-container {
+	height: 50px;
+	.footer-inner-container {
+		.footer-txt {
+			font-size: 0.4rem;
+		}
+	}
+}
+}
