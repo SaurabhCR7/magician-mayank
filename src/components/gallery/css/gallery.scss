@@ -7,13 +7,13 @@
 		font-style: normal;
 		font-weight: bold;
 		font-size: 4rem;
-		line-height: 75px;
 		letter-spacing: 0.135em;
 		color: #000000;
 		margin: 0px 0px 100px 0px;
 		padding: 0px;
 	}
 	.gallery-main-section {
+		height: 1000px;
 		width: 100%;
 		display: flex;
 		justify-content: space-between;
@@ -23,6 +23,8 @@
 			width: 59.2%;
 			overflow: hidden;
 			img {
+				height:100%; 
+				width:100%;
 				transition: transform 0.25s, visibility 0.25s ease-in;
 			}
 			img:hover {
@@ -33,8 +35,10 @@
 			width: 40%;
 			display: flex;
 			flex-direction: column;
+			justify-content: space-between;
 			overflow: hidden;
 			img:nth-child(1){
+				height: 49.5%;
 				transform-origin: bottom;
 				transition:  transform 0.25s, visibility 0.25s ease-in;
 			}
@@ -42,6 +46,7 @@
 				transform: scale(1.05);
 			}
 			img:nth-child(2){
+				height: 49.5%;
 				transform-origin: top;
 				transition:  transform 0.25s, visibility 0.25s ease-in;
 			}
@@ -79,5 +84,51 @@
 		flex-wrap: wrap;
 		justify-content: space-between;
 		transition: all 0.5s ease-in-out!important;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.gallery-container{
+		.gallery-main-section{
+			height: 800px;
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.gallery-container{
+		.gallery-heading{
+			font-size: 1.8rem;
+		}
+		.gallery-main-section{
+			height: 550px;
+		}
+		.gallery-view-btn{
+			padding: 15px;
+		}
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.gallery-container{
+		.gallery-main-section{
+			height: 450px;
+		}
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.gallery-container{
+		.gallery-main-section{
+			height: 400px;
+		}
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.gallery-container{
+		.gallery-main-section{
+			height: 300px;
+		}
 	}
 }

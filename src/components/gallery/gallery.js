@@ -50,12 +50,11 @@ function Gallery() {
 			</p>
 			<div className="gallery-main-section">
 				<div className="gallery-left-images" data-aos="fade-right">
-					<img src={leftPic} height="100%" width="100%" />
+					<img src={leftPic} />
 				</div>
 				<div className="gallery-right-images">
 					<img
 						src={rightPic1}
-						style={{ marginBottom: '10px' }}
 						data-aos="fade-left"
 					/>
 					<img src={rightPic2} data-aos="fade-up" />

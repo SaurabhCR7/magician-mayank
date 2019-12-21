@@ -18,4 +18,36 @@
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
+@media screen and (max-width: 1000px) {
+  .subgallery-container {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .subgallery-container {
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .subgallery-container {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .subgallery-container {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .subgallery-container {
+    height: 100px;
+    width: 32%;
+    margin-bottom: 4px;
+  }
+}
 /*# sourceMappingURL=subgallery.css.map */
