@@ -47,3 +47,34 @@
 		height: 30px;
 	}
 }
+@media screen and (max-width: 930px) {
+	.testimonials-box-container{
+		.testimonials-quote{
+			font-size: 0.6rem;
+		}
+		.testimonials-name{
+			font-size: 0.8rem;
+			font-weight: bold;
+		}
+		.testimonials-link{
+			font-size: 0.6rem;
+		}
+	}
+}
+@media screen and (max-width: 600px) {
+	.testimonials-box-container{
+		.testimonials-pic{
+			height: 60px;
+			width: 60px;
+		}
+		.testimonials-quote{
+			font-size: 0.4rem;
+		}
+		.testimonials-name{
+			font-size: 0.5rem;
+		}
+		.testimonials-link{
+			font-size: 0.5rem;
+		}
+	}
+}

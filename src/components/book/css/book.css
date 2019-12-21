@@ -1,3 +1,7 @@
+.book-container {
+  overflow: hidden;
+}
+
 .book-container .book-heading {
   cursor: default;
   text-align: center;
@@ -5,7 +9,6 @@
   font-style: normal;
   font-weight: bold;
   font-size: 4rem;
-  line-height: 75px;
   letter-spacing: 0.135em;
   color: #000000;
   margin: 0px;
@@ -111,7 +114,6 @@
 @media screen and (max-width: 500px) {
   .book-container .book-heading {
     font-size: 1.8rem;
-    line-height: 0px;
   }
   .book-container form {
     width: 90%;

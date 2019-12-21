@@ -18,8 +18,7 @@ function Testimonials() {
 			>
 				TESTIMONIALS
 			</p>
-			<div className="testimonials-subcontainer" data-aos="fade-up" data-aos-delay="100"
-				data-aos-duration="1000">
+			<div className="testimonials-subcontainer" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
 				<TestimonialsBox image={Test1} quote={'"Mayank made our diwali party so fabulous, he is an amazing magician."'} name={"~ Ms. Neelu, Sara Int. Pvt. Ltd."} link={"https://youtu.be/wHXALGYjeXk"} />
 				<TestimonialsBox image={Test2} quote={'"You’re very very Good Mayank"'} name={"~ SHAHNAZ HUSSAIN"}  />
 				<TestimonialsBox image={Test3} quote={'"We’ve never seen anything like this before, absolutely fantastic"'} name={"~ RBS"} />

@@ -59,4 +59,33 @@
   margin: 0px;
   height: 30px;
 }
+
+@media screen and (max-width: 930px) {
+  .testimonials-box-container .testimonials-quote {
+    font-size: 0.6rem;
+  }
+  .testimonials-box-container .testimonials-name {
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  .testimonials-box-container .testimonials-link {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .testimonials-box-container .testimonials-pic {
+    height: 60px;
+    width: 60px;
+  }
+  .testimonials-box-container .testimonials-quote {
+    font-size: 0.4rem;
+  }
+  .testimonials-box-container .testimonials-name {
+    font-size: 0.5rem;
+  }
+  .testimonials-box-container .testimonials-link {
+    font-size: 0.5rem;
+  }
+}
 /*# sourceMappingURL=testimonialsBox.css.map */
