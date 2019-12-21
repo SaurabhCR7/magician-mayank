@@ -6,6 +6,10 @@
 	background-size: 100% 100%;
 	.home-logo-container {
 		padding-top: 70px;
+		img{
+			width: 120px;
+			height: 90px;
+		}
 		.logo-txt-container {
 			display: flex;
 			width: 230px;
@@ -104,6 +108,66 @@
 			line-height: 90px;
 			letter-spacing: 0.185em;
 			color: rgba(255, 255, 255, 0.5);
+		}
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.home-main-container{
+		height: 700px;
+		.home-logo-container{
+			img{
+				height: 60px;
+				width: 70px;
+			}
+			.logo-txt-container{
+				.logo-txt-mayank{
+					font-size: 1rem;
+				}
+				.logo-txt-shekhar{
+					font-size: 1rem;
+				}
+			}
+			.sublogo-txt-container{
+				.sublogo-txt-closeup{
+					font-size: 0.8rem;
+				}
+				.sublogo-txt-magician{
+					font-size: 0.8rem;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.home-main-container{
+		height: 750px;
+		.home-container{
+			height: 650px;
+			margin-top: -70px;
+			.home-text{
+				font-size: 40px;
+			}
+			.home-subtext{
+				font-size: 50px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 700px) {
+	.home-main-container{
+		height: 650px;
+		.home-container{
+			height: 550px;
+			margin-top: -70px;
+			.home-text{
+				font-size:25px;
+				line-height: 10px;
+			}
+			.home-subtext{
+				font-size: 25px;
+			}
 		}
 	}
 }

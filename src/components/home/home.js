@@ -12,8 +12,6 @@ function Home() {
 			<div className="home-logo-container">
 				<img
 					src={logo}
-					width="140px"
-					height="100px"
 					data-aos="fade-down"
 					data-aos-duration="800"
 				/>
