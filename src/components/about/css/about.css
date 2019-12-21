@@ -9,7 +9,6 @@
   font-style: normal;
   font-weight: bold;
   font-size: 4rem;
-  line-height: 75px;
   letter-spacing: 0.135em;
   color: #000000;
   margin-bottom: 70px;
@@ -28,7 +27,12 @@
           justify-content: space-evenly;
 }
 
-.about-container .about-content-container {
+.about-container .about-section img {
+  width: 46%;
+  height: 40%;
+}
+
+.about-container .about-section .about-content-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,29 +40,66 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 46%;
+  width: 43%;
 }
 
-.about-container .about-content-container .about-section-heading {
+.about-container .about-section .about-content-container .about-section-heading {
   font-family: Karla;
   margin: 0px;
   padding: 0px;
   font-style: normal;
   font-weight: bold;
   font-size: 2.5rem;
-  line-height: 47px;
   letter-spacing: 0.085em;
   text-align: left;
   color: #000000;
 }
 
-.about-container .about-content-container .about-section-content {
+.about-container .about-section .about-content-container .about-section-content {
   font-family: poppins;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.2rem;
-  letter-spacing: 0.1em;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
   text-align: left;
   color: #000000;
+}
+
+@media screen and (max-width: 1150px) {
+  .about-container .about-section .about-content-container .about-section-content {
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .about-container .about-section img {
+    width: 50%;
+    height: 500px;
+  }
+  .about-container .about-section .about-content-container .about-section-heading {
+    font-size: 2rem;
+  }
+  .about-container .about-section .about-content-container .about-section-content {
+    letter-spacing: 0px;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .about-container .about-heading {
+    font-size: 1.8rem;
+  }
+  .about-container .about-section img {
+    width: 45%;
+    height: 300px;
+  }
+  .about-container .about-section .about-content-container .about-section-heading {
+    font-size: 1rem;
+  }
+  .about-container .about-section .about-content-container .about-section-content {
+    letter-spacing: 0px;
+    font-size: 0.5rem;
+  }
 }
 /*# sourceMappingURL=about.css.map */

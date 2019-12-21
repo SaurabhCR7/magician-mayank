@@ -16,8 +16,6 @@ function About() {
 			<div className="about-section">
 				<img
 					src={aboutImg}
-					width="46%"
-					height="40%"
 					data-aos="fade-right"
 					data-aos-delay="50"
 					data-aos-duration="1200"
