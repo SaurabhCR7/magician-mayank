@@ -28,12 +28,19 @@ function Book(props) {
 	};
 	const descriptionHandler = e => {
 		setDescription(e.target.value);
-  };
+	};
 
 	const submitHandler = e => {
 		e.preventDefault();
+		props.enqueueSnackbar('Thank You For Submitting the form!', {
+			variant: 'success',
+			anchorOrigin: {
+				vertical: 'bottom',
+				horizontal: 'right'
+			}
+		});
 		axios
-      .post('https://mayankthemagician.herokuapp.com/', {
+			.post('https://mayankthemagician.herokuapp.com/', {
 				name: name,
 				phone: phone,
 				email: email,
@@ -42,17 +49,7 @@ function Book(props) {
 				description: description
 			})
 			.then(() => {
-        console.log('Mail sent!');
-        props.enqueueSnackbar(
-					'Thank You For Submitting the form!',
-					{
-						variant: 'success',
-						anchorOrigin: {
-							vertical: 'bottom',
-							horizontal: 'right'
-						}
-					}
-				);
+				console.log('Mail sent!');
 			})
 			.catch(err => {
 				console.log(err);
@@ -68,7 +65,7 @@ function Book(props) {
 			<br />
 			<br />
 			<br />
-      <form onSubmit={submitHandler}>
+			<form onSubmit={submitHandler}>
 				<div className="book-subform">
 					<input
 						type="text"
