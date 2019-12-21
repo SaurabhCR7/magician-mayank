@@ -76,7 +76,7 @@ function Gallery() {
 				<SubGallery image={p3} title={'IITF 2019'} />
 				<SubGallery image={p4} title={'IIT-D'} />
 				<SubGallery image={p5} title={'MAYA MAYA'} />
-				<SubGallery image={p6} title={'CLOSE UP'} />
+				<SubGallery image={p6} title={'CORPORATE'} />
 				<SubGallery image={p7} title={'THEATRE'} />
 				<SubGallery image={p8} title={'SHAHNAZ HUSSAIN'} />
 				<SubGallery image={p9} title={'THEATRE'} />

@@ -28,21 +28,21 @@ function App() {
 			<About />
 			<Quote
 				text={
-					'" Magic is believing in yourself, if you can do that, you can make anything happen. "'
+					'" Magic Lies in your Imagination, My job is to bring that imagination into life. " ' + '\n'+'~Mayank Shekhar'  
 				}
 				img={Background1}
 			/>
 			<Videos />
 			<Quote
 				text={
-					'" Illusion is all about creating a moment of wonder & Astonishment. "'
+					'" Those  who  do  not  believe  in  Magic  will  never  find  it. "'
 				}
 				img={Background2}
 			/>
 			<Gallery />
 			<Quote
 				text={
-					'" Those  who  do  not  believe  in  Magic  will  never  find  it. "'
+					'" Illusion is all about creating a moment of wonder & Astonishment. "'
 				}
 				img={Background3}
 			/>
@@ -53,7 +53,7 @@ function App() {
 			/>
 			<Contact />
 			<Quote
-				text={'" The #1 Sleight of Hand Artist in the World. "'}
+				text={'" Magic is believing in yourself, if you can do that, you can make anything happen. "'}
 				img={Background5}
 			/>
 			<SnackbarProvider maxSnack={3}>
