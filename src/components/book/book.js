@@ -41,7 +41,7 @@ function Book(props) {
 				subject: subject,
 				description: description
 			})
-			.then(res => {
+			.then(() => {
         console.log('Mail sent!');
         props.enqueueSnackbar(
 					'Thank You For Submitting the form!',
