@@ -118,7 +118,7 @@ function Book(props) {
 				</div>
 				<textarea
 					name="describe"
-					rows="3"
+					rows="5"
 					cols="30"
 					required
 					placeholder="Describe Your Project*"
