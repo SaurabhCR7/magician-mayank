@@ -46,7 +46,7 @@ function Videos() {
 				></iframe>
 				<iframe
 					data-aos="fade-left"
-					src="https://youtu.be/9jCPorZO5mA"
+					src="https://www.youtube.com/watch?v=9jCPorZO5mA&feature=youtu.be"
 					frameborder="1"
 					allow="accelerometer; autoplay; encrypted-media;"
 					allowfullscreen
