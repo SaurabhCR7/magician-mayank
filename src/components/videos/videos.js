@@ -4,8 +4,8 @@ import ReactPlayer from 'react-player';
 import './css/videos.css';
 
 function Videos() {
- const [shouldPlay, updatePlayState] = useState(false);
-	const Player = (props) => {
+	const [shouldPlay, updatePlayState] = useState(false);
+	const Player = props => {
 		updatePlayState(props.isVisible);
 		return (
 			<ReactPlayer
@@ -30,9 +30,7 @@ function Videos() {
 			>
 				VIDEOS
 			</p>
-			<TrackVisibility className="trackVisibility">
-				{Player}
-			</TrackVisibility>
+			<TrackVisibility className="trackVisibility">{Player}</TrackVisibility>
 			<br />
 			<br />
 			<br />
@@ -48,7 +46,7 @@ function Videos() {
 				></iframe>
 				<iframe
 					data-aos="fade-left"
-					src="https://www.youtube.com/watch?v=9jCPorZO5mA"
+					src="https://youtu.be/9jCPorZO5mA"
 					frameborder="1"
 					allow="accelerometer; autoplay; encrypted-media;"
 					allowfullscreen
