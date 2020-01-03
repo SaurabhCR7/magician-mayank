@@ -38,7 +38,6 @@ function Videos() {
 			<br />
 			<div className="main-subvideos">
 				<iframe
-					data-aos="fade-right"
 					src="https://www.youtube.com/embed/hZhcCu-uzD4"
 					frameborder="1"
 					allow="accelerometer; autoplay; encrypted-media;"
@@ -66,14 +65,12 @@ function Videos() {
 			</p>
 			<div className="main-subvideos">
 				<iframe
-					data-aos="fade-right"
 					src="https://www.youtube.com/embed/hq27x612hwI"
 					frameborder="1"
 					allow="accelerometer; autoplay; encrypted-media;"
 					allowfullscreen
 				></iframe>
 				<iframe
-					data-aos="fade-left"
 					src="https://www.youtube.com/embed/iHUVKQV8mPc"
 					frameborder="1"
 					allow="accelerometer; autoplay; encrypted-media;"
