@@ -45,10 +45,11 @@ function Videos() {
 					allowfullscreen
 				></iframe>
 				<iframe
-					data-aos="fade-left"
-					src="https://www.youtube.com/watch?v=9jCPorZO5mA&feature=youtu.be"
-					frameborder="1"
-					allow="accelerometer; autoplay; encrypted-media;"
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/9jCPorZO5mA"
+					frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen
 				></iframe>
 			</div>
