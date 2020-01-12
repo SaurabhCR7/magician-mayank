@@ -44,15 +44,37 @@
   margin-bottom: 120px;
 }
 
+@media screen and (min-width: 1700px) {
+  .videos-container .main-subvideos iframe {
+    width: 49%;
+    height: 500px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .videos-container .videos-heading {
     font-size: 1.8rem;
     padding-top: 50px;
     margin-bottom: 50px;
   }
+  .videos-container .main-subvideos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .videos-container .main-subvideos iframe {
-    width: 48%;
-    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 250px;
+    margin-bottom: 10px;
   }
   .videos-container .subvideos-heading {
     line-height: 40px;

@@ -1,5 +1,5 @@
 .about-container {
-	margin-top: 100px;
+	margin-top: 50px;
 	overflow-x: hidden;
 	.about-heading {
 		text-align: center;
@@ -46,6 +46,25 @@
 		}
 	}
 }
+
+@media screen and (min-width: 1150px) {
+	.about-container {
+		.about-section {
+			.about-content-container {
+				.about-section-heading{
+					font-size: 3rem;
+				}
+				.about-section-content {
+					letter-spacing: 2px;
+					font-size: 1.3rem;
+					line-height: 37px;
+				}
+			}
+		}
+	}
+}
+
+
 @media screen and (max-width: 1150px) {
 	.about-container {
 		.about-section {

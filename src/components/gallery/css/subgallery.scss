@@ -18,6 +18,20 @@
 	}
 }
 
+@media screen and (min-width: 1700px) {
+	.subgallery-container{
+		height: 400px;
+		width: 33%;
+		margin-bottom: 6px;
+		.subgallery-overlay{
+			font-size: 1.4rem;
+			margin-top: 310px;
+		height: 50px;
+		padding: 30px 0px 30px 0px;
+	}
+	}
+}
+
 @media screen and (max-width: 1000px) {
 	.subgallery-container{
 		height: 250px;
@@ -61,13 +75,13 @@
 }
 @media screen and (max-width: 600px) {
 	.subgallery-container{
-		height: 100px;
-		width: 32%;
+		height: 150px;
+		width: 49%;
 		margin-bottom: 4px;
 			.subgallery-overlay{
 				font-size: 0.7rem;
-		margin-top: 55px;
-		height: 45px;
+		margin-top: 105px;
+		height: 25px;
 		padding: 10px 0px 10px 0px;
 	}
 	}

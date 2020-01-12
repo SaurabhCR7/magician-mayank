@@ -37,6 +37,18 @@
 	}
 }
 
+@media screen and (min-width: 1700px) {
+	.videos-container{
+		.main-subvideos{
+			iframe{
+				width:49%;
+				height:500px;
+			}	
+		}
+	}
+}
+
+
 @media screen and (max-width: 600px) {
 	.videos-container{
 		.videos-heading{
@@ -45,9 +57,15 @@
 		margin-bottom: 50px;
 		}
 		.main-subvideos{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
 			iframe{
-				width:48%;
-				height:150px;
+				margin-left:auto;
+				margin-right:auto;
+				width:95%;
+				height:250px;
+				margin-bottom: 10px;
 			}
 			
 		}

@@ -138,6 +138,34 @@
   color: rgba(255, 255, 255, 0.5);
 }
 
+@media screen and (min-width: 1700px) {
+  .home-main-container {
+    height: 1400px;
+  }
+  .home-main-container .home-logo-container img {
+    height: 80px;
+    width: 100px;
+  }
+  .home-main-container .home-logo-container .logo-txt-container .logo-txt-mayank {
+    font-size: 1rem;
+  }
+  .home-main-container .home-logo-container .logo-txt-container .logo-txt-shekhar {
+    font-size: 1rem;
+  }
+  .home-main-container .home-logo-container .sublogo-txt-container .sublogo-txt-closeup {
+    font-size: 0.8rem;
+  }
+  .home-main-container .home-logo-container .sublogo-txt-container .sublogo-txt-magician {
+    font-size: 0.8rem;
+  }
+  .home-main-container .home-container {
+    height: 1400px;
+  }
+  .home-main-container .home-container .home-text {
+    margin-top: 190px;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .home-main-container {
     height: 700px;
@@ -178,13 +206,15 @@
 
 @media screen and (max-width: 700px) {
   .home-main-container {
-    height: 600px;
+    height: 100vh;
   }
   .home-main-container .home-container {
-    height: 500px;
+    height: 88vh;
     margin-top: -70px;
+    background-size: 200% 90%;
   }
   .home-main-container .home-container .home-text {
+    margin-top: 130px;
     font-size: 25px;
     line-height: 10px;
   }

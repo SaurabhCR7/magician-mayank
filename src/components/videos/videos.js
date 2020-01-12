@@ -11,7 +11,7 @@ function Videos() {
 			<ReactPlayer
 				url="https://youtu.be/EWaNLBq-VgM"
 				width="100%"
-				height="80vh"
+				height="70vh"
 				playing={shouldPlay}
 				loop="true"
 				controls="false"
@@ -49,7 +49,7 @@ function Videos() {
 					width="560"
 					height="315"
 					src="https://www.youtube.com/embed/9jCPorZO5mA"
-					frameborder="0"
+					frameborder="1"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen="true"
 				></iframe>

@@ -81,6 +81,23 @@
 	}
 }
 
+@media screen and (min-width: 1700px) {
+	.book-container {
+		form {
+			width: 70%;
+			.book-subform{
+				input{
+				font-size: 1rem;
+				height: 60px;
+				}
+			}
+			textarea{
+				font-size: 1rem;
+			}
+		}
+	}
+}
+
 @media screen and (max-width: 500px) {
 	.book-container {
 		.book-heading{
