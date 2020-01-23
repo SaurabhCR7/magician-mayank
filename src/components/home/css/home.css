@@ -1,95 +1,9 @@
 .home-main-container {
-  height: 1200px;
-  background-image: url("./../images/smoke.jpg");
+  height: 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-color: #e3e3e3;
-  background-size: 100% 100%;
-}
-
-.home-main-container .home-logo-container {
-  padding-top: 70px;
-}
-
-.home-main-container .home-logo-container img {
-  width: 120px;
-  height: 90px;
-}
-
-.home-main-container .home-logo-container .logo-txt-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 230px;
-  margin: 0 auto;
-  padding: 0px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.home-main-container .home-logo-container .logo-txt-container .logo-txt-mayank {
-  font-family: Karla;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 1.5rem;
-  color: #000000;
-  margin: 0px;
-  width: 48%;
-  text-align: right;
-}
-
-.home-main-container .home-logo-container .logo-txt-container .logo-txt-shekhar {
-  font-family: Karla;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 1.5rem;
-  margin: 0px;
-  padding: 0px;
-  width: 48%;
-  text-align: left;
-  color: #da2426;
-  -webkit-text-stroke-color: black;
-  -webkit-text-stroke-width: 1px;
-}
-
-.home-main-container .home-logo-container .sublogo-txt-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 230px;
-  margin: 0 auto;
-  padding: 0px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.home-main-container .home-logo-container .sublogo-txt-container .sublogo-txt-closeup {
-  font-family: Karla;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 1.1rem;
-  line-height: 20px;
-  letter-spacing: 0.08em;
-  margin: 0px;
-  padding: 0px;
-  color: rgba(255, 255, 255, 0.5);
-  width: 48%;
-  text-align: right;
-}
-
-.home-main-container .home-logo-container .sublogo-txt-container .sublogo-txt-magician {
-  padding: 0px 0px 0px 13px;
-  font-family: Karla;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 1.1rem;
-  line-height: 20px;
-  letter-spacing: 0.15em;
-  margin: 0px;
-  color: rgba(255, 255, 255, 0.5);
-  width: 48%;
-  text-align: left;
+  background-image: url("./../images/home.jpg");
 }
 
 .home-main-container .home-container {
@@ -103,72 +17,66 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 1150px;
-  margin-bottom: 0px;
-  margin-top: -150px;
-  padding: 0px;
-  background-image: url("./../images/mayank-pic.png");
-  background-repeat: no-repeat;
-  background-size: 110% 90%;
-  background-position: bottom;
+  height: 1500px;
 }
 
 .home-main-container .home-container .home-text {
   text-align: center;
-  margin-top: 60px;
-  margin-bottom: 0px;
   font-family: Karla;
   font-style: normal;
-  font-weight: bold;
-  font-size: 50px;
+  font-size: 4.5rem;
+  font-weight: bolder;
+  margin-top: 0px;
+  margin-bottom: 0px;
   line-height: 58px;
   letter-spacing: 0.085em;
   color: rgba(255, 255, 255, 0.5);
 }
 
 .home-main-container .home-container .home-subtext {
-  margin: 0px;
   text-align: center;
   font-family: Poppins;
   font-style: normal;
-  font-weight: bold;
-  font-size: 60px;
+  margin-top: 10px;
+  font-size: 5rem;
+  font-weight: bolder;
   line-height: 90px;
   letter-spacing: 0.185em;
   color: rgba(255, 255, 255, 0.5);
 }
 
 @media screen and (min-width: 1700px) {
-  .home-main-container {
-    height: 1400px;
-  }
-  .home-main-container .home-logo-container img {
-    height: 80px;
-    width: 100px;
-  }
-  .home-main-container .home-logo-container .logo-txt-container .logo-txt-mayank {
-    font-size: 1rem;
-  }
-  .home-main-container .home-logo-container .logo-txt-container .logo-txt-shekhar {
-    font-size: 1rem;
-  }
-  .home-main-container .home-logo-container .sublogo-txt-container .sublogo-txt-closeup {
-    font-size: 0.8rem;
-  }
-  .home-main-container .home-logo-container .sublogo-txt-container .sublogo-txt-magician {
-    font-size: 0.8rem;
-  }
   .home-main-container .home-container {
-    height: 1400px;
+    height: 2100px;
   }
   .home-main-container .home-container .home-text {
-    margin-top: 190px;
+    font-size: 5.5rem;
+    font-weight: bolder;
+    margin-top: 290px;
+  }
+  .home-main-container .home-container .home-subtext {
+    margin-top: 40px;
+    font-size: 6rem;
+    font-weight: bolder;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .home-main-container .home-container .home-text {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-top: 290px;
+  }
+  .home-main-container .home-container .home-subtext {
+    margin-top: 20px;
+    font-size: 4rem;
+    font-weight: bolder;
   }
 }
 
 @media screen and (max-width: 700px) {
   .home-main-container {
-    height: 700px;
+    height: 1700px;
   }
   .home-main-container .home-logo-container img {
     height: 60px;
@@ -189,11 +97,7 @@
 }
 
 @media screen and (max-width: 900px) {
-  .home-main-container {
-    height: 750px;
-  }
   .home-main-container .home-container {
-    height: 650px;
     margin-top: -70px;
   }
   .home-main-container .home-container .home-text {
@@ -205,14 +109,6 @@
 }
 
 @media screen and (max-width: 700px) {
-  .home-main-container {
-    height: 100vh;
-  }
-  .home-main-container .home-container {
-    height: 88vh;
-    margin-top: -70px;
-    background-size: 200% 90%;
-  }
   .home-main-container .home-container .home-text {
     margin-top: 130px;
     font-size: 25px;

@@ -155,10 +155,10 @@
     width: 59.7%;
   }
   .gallery-container .gallery-main-section .gallery-right-images img:nth-child(1) {
-    height: 49.8%;
+    height: 40%;
   }
   .gallery-container .gallery-main-section .gallery-right-images img:nth-child(2) {
-    height: 49.8%;
+    height: 40%;
   }
 }
 

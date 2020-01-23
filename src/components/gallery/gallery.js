@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import './css/gallery.css';
 import SubGallery from './subgallery';
 
-import leftPic from './images/main/1.jpg';
-import rightPic1 from './images/main/2.png';
-import rightPic2 from './images/main/3.png';
+import leftPic from './images/main/4.jpg';
+import rightPic1 from './images/main/6.jpg';
+import rightPic2 from './images/main/11.jpg';
 import p1 from './images/1.jpg';
 import p2 from './images/2.jpg';
 import p3 from './images/3.jpg';
