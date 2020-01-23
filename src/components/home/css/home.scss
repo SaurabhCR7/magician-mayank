@@ -18,7 +18,7 @@
 			font-weight: bolder;
 			line-height: 40px;
 			letter-spacing: 0.1em;
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 0.6);
 		}
 		.home-subtext {
 			text-align: center;
@@ -29,96 +29,113 @@
 			font-weight: bolder;
 			line-height: 40px;
 			letter-spacing: 0.2em;
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 0.6);
 		}
 	}
 }
 
 @media screen and (max-width: 1366px) {
-	.home-main-container{
-		.home-container{
+	.home-main-container {
+		.home-container {
 			height: 1400px;
-			.home-text{
+			.home-text {
+				line-height: 20px;
 				font-size: 4.5rem;
 			}
-			.home-subtext{
-				margin-top: 0px;
+			.home-subtext {
 				font-size: 4.3rem;
 			}
 		}
 	}
 }
 
-// @media screen and (max-width: 1220px) {
-// 	.home-main-container{
-// 		.home-container{
-// 			.home-text{
-// 				font-size: 3.5rem;
-// 				font-weight: bolder;
-// 				margin-top: 290px;
-// 			}
-// 			.home-subtext{
-// 				margin-top: 20px;
-// 				font-size: 4rem;
-// 				font-weight: bolder;
-// 			}
-// 		}
-// 	}
-// }
+@media screen and (max-width: 1100px) {
+	.home-main-container {
+		.home-container {
+			height: 1200px;
+			.home-text {
+				font-size: 3.5rem;
+			}
+			.home-subtext {
+				font-size: 3.5rem;
+			}
+		}
+	}
+}
 
+@media screen and (max-width: 900px) {
+	.home-main-container {
+		.home-container {
+			height: 1000px;
+			.home-text {
+				font-size: 3.5rem;
+			}
+			.home-subtext {
+				font-size: 3rem;
+			}
+		}
+	}
+}
 
-// @media screen and (max-width: 700px) {
-// 	.home-main-container{
-// 		height: 1700px;
-// 		.home-logo-container{
-// 			img{
-// 				height: 60px;
-// 				width: 70px;
-// 			}
-// 			.logo-txt-container{
-// 				.logo-txt-mayank{
-// 					font-size: 1rem;
-// 				}
-// 				.logo-txt-shekhar{
-// 					font-size: 1rem;
-// 				}
-// 			}
-// 			.sublogo-txt-container{
-// 				.sublogo-txt-closeup{
-// 					font-size: 0.8rem;
-// 				}
-// 				.sublogo-txt-magician{
-// 					font-size: 0.8rem;
-// 				}
-// 			}
-// 		}
-// 	}
-// }
+@media screen and (max-width: 800px) {
+	.home-main-container {
+		.home-container {
+			height: 900px;
+			.home-text {
+				margin-top: 110px;
+				font-size: 2.5rem;
+			}
+			.home-subtext {
+				line-height: 10px;
+				font-size: 2.5rem;
+			}
+		}
+	}
+}
+@media screen and (max-width: 700px) {
+	.home-main-container {
+		.home-container {
+			height: 800px;
+			.home-text {
+				margin-top: 110px;
+				font-size: 2.5rem;
+			}
+			.home-subtext {
+				line-height: 10px;
+				font-size: 2.3rem;
+			}
+		}
+	}
+}
+@media screen and (max-width: 600px) {
+	.home-main-container {
+		.home-container {
+			height: 700px;
+			.home-text {
+				margin-top: 110px;
+				font-size: 2rem;
+			}
+			.home-subtext {
+				line-height: 10px;
+				font-size: 2rem;
+			}
+		}
+	}
+}
 
-// @media screen and (max-width: 900px) {
-// 	.home-main-container{
-// 		.home-container{
-// 			margin-top: -70px;
-// 			.home-text{
-// 				font-size: 40px;
-// 			}
-// 			.home-subtext{
-// 				font-size: 50px;
-// 			}
-// 		}
-// 	}
-// }
-// @media screen and (max-width: 700px) {
-// 	.home-main-container{
-// 		.home-container{
-// 			.home-text{
-// 				margin-top: 130px;
-// 				font-size:25px;
-// 				line-height: 10px;
-// 			}
-// 			.home-subtext{
-// 				font-size: 25px;
-// 			}
-// 		}
-// 	}
-// }
+@media screen and (max-width: 500px) {
+	.home-main-container {
+		.home-container {
+			height: 100vh;
+			.home-text {
+				margin-top: 110px;
+				font-size: 1.7rem;
+				letter-spacing: 5px;
+			}
+			.home-subtext {
+				line-height: 10px;
+				font-size: 1.7rem;
+			}
+		}
+	}
+}

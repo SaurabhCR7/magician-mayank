@@ -29,7 +29,7 @@
   font-weight: bolder;
   line-height: 40px;
   letter-spacing: 0.1em;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .home-main-container .home-container .home-subtext {
@@ -41,7 +41,7 @@
   font-weight: bolder;
   line-height: 40px;
   letter-spacing: 0.2em;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 @media screen and (max-width: 1366px) {
@@ -49,11 +49,92 @@
     height: 1400px;
   }
   .home-main-container .home-container .home-text {
+    line-height: 20px;
     font-size: 4.5rem;
   }
   .home-main-container .home-container .home-subtext {
-    margin-top: 0px;
     font-size: 4.3rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .home-main-container .home-container {
+    height: 1200px;
+  }
+  .home-main-container .home-container .home-text {
+    font-size: 3.5rem;
+  }
+  .home-main-container .home-container .home-subtext {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .home-main-container .home-container {
+    height: 1000px;
+  }
+  .home-main-container .home-container .home-text {
+    font-size: 3.5rem;
+  }
+  .home-main-container .home-container .home-subtext {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .home-main-container .home-container {
+    height: 900px;
+  }
+  .home-main-container .home-container .home-text {
+    margin-top: 110px;
+    font-size: 2.5rem;
+  }
+  .home-main-container .home-container .home-subtext {
+    line-height: 10px;
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .home-main-container .home-container {
+    height: 800px;
+  }
+  .home-main-container .home-container .home-text {
+    margin-top: 110px;
+    font-size: 2.5rem;
+  }
+  .home-main-container .home-container .home-subtext {
+    line-height: 10px;
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home-main-container .home-container {
+    height: 700px;
+  }
+  .home-main-container .home-container .home-text {
+    margin-top: 110px;
+    font-size: 2rem;
+  }
+  .home-main-container .home-container .home-subtext {
+    line-height: 10px;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .home-main-container .home-container {
+    height: 100vh;
+  }
+  .home-main-container .home-container .home-text {
+    margin-top: 110px;
+    font-size: 1.7rem;
+    letter-spacing: 5px;
+  }
+  .home-main-container .home-container .home-subtext {
+    line-height: 10px;
+    font-size: 1.7rem;
   }
 }
 /*# sourceMappingURL=home.css.map */
