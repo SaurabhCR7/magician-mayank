@@ -93,16 +93,17 @@
 @media screen and (min-width: 1700px) {
 	.gallery-container{
 		.gallery-main-section{
-			height: 1300px;
+			height: 1200px;
 			.gallery-left-images{
-				width: 59.7%;
+				width: 53%;
 			}
 			.gallery-right-images{
+				width: 46.5%;
 				img:nth-child(1){
-					height: 40%;
+					height: 49.7%;
 				}
 				img:nth-child(2){
-					height: 40%;
+					height: 49.7%;
 				}
 			}
 		}
