@@ -8,7 +8,6 @@ import rightPic2 from './images/main/11.jpg';
 import p1 from './images/1.jpg';
 import p2 from './images/2.jpg';
 import p3 from './images/3.jpg';
-import p4 from './images/4.jpg';
 import p5 from './images/5.jpg';
 import p6 from './images/6.jpg';
 import p7 from './images/7.jpg';
@@ -19,10 +18,11 @@ import p11 from './images/11.jpg';
 import p12 from './images/12.jpg';
 import p13 from './images/13.jpg';
 import p14 from './images/14.jpg';
-import p15 from './images/15.jpg';
 import p16 from './images/16.jpg';
 import p17 from './images/17.jpg';
 import p18 from './images/18.jpg';
+import p19 from './images/19.jpg';
+import p20 from './images/20.jpg';
 
 function Gallery() {
 	const handleViewBtn = () => {
@@ -77,7 +77,6 @@ function Gallery() {
 				<SubGallery image={p1} title={'NSUT'}  />
 				<SubGallery image={p2} title={'THEATRE'} />
 				<SubGallery image={p3} title={'IITF 2019'} />
-				<SubGallery image={p4} title={'IIT-D'} />
 				<SubGallery image={p5} title={'MAYA MAYA'} />
 				<SubGallery image={p6} title={'CORPORATE'} />
 				<SubGallery image={p7} title={'THEATRE'} />
@@ -88,10 +87,11 @@ function Gallery() {
 				<SubGallery image={p12} title={'CLOSE UP'} />
 				<SubGallery image={p13} title={'CORPORATE'} />
 				<SubGallery image={p14} title={'AWARD'} />
-				<SubGallery image={p15} title={'ARSD'} />
 				<SubGallery image={p16} title={'THEATRE'} />
 				<SubGallery image={p17} title={'DUBAI'} />
 				<SubGallery image={p18} title={'CORPORATE'} />
+				<SubGallery image={p19} title={'CCI'} />
+				<SubGallery image={p20} title={'CCI'} />
 			</div>
 		</div>
 	);
