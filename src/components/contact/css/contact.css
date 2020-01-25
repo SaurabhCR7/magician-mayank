@@ -55,7 +55,7 @@
 @media screen and (max-width: 490px) {
   .contact-container .contact-heading {
     font-size: 1.8rem;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   .contact-container .contact-card-container img {
     height: 100px;

@@ -8,7 +8,6 @@
   font-style: normal;
   font-weight: bold;
   font-size: 4rem;
-  line-height: 75px;
   letter-spacing: 0.135em;
   color: #000000;
   margin: 0px;
@@ -27,6 +26,9 @@
 @media screen and (max-width: 700px) {
   .testimonials-container .testimonials-heading {
     font-size: 1.8rem;
+  }
+  .testimonials-container .testimonials-subcontainer {
+    margin-top: 50px;
   }
 }
 /*# sourceMappingURL=testimonials.css.map */

@@ -6,7 +6,6 @@
 		font-style: normal;
 		font-weight: bold;
 		font-size: 4rem;
-		line-height: 75px;
 		letter-spacing: 0.135em;
 		color: #000000;
     margin: 0px;
@@ -22,6 +21,9 @@
   .testimonials-container{
     .testimonials-heading{
       font-size: 1.8rem;
+    }
+    .testimonials-subcontainer{
+      margin-top: 50px;
     }
   }
 }
