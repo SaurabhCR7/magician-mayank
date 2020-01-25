@@ -29,7 +29,7 @@
   font-weight: bolder;
   line-height: 40px;
   letter-spacing: 0.1em;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .home-main-container .home-container .home-subtext {
@@ -41,7 +41,7 @@
   font-weight: bolder;
   line-height: 40px;
   letter-spacing: 0.2em;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 @media screen and (max-width: 1366px) {

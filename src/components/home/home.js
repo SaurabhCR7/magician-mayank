@@ -9,7 +9,7 @@ function Home() {
 	return (
 		<div className="home-main-container" id="home">
 			<div className="home-container">
-				<p className="home-text" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000"> 
+				<p className="home-text" data-aos="fade-up"> 
 					WELCOME TO
 				</p>
 				<p
