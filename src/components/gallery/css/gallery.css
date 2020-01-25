@@ -11,12 +11,12 @@
   font-size: 4rem;
   letter-spacing: 0.135em;
   color: #000000;
-  margin: 0px 0px 100px 0px;
+  margin: 100px 0px 100px 0px;
   padding: 0px;
 }
 
 .gallery-container .gallery-main-section {
-  height: 1000px;
+  height: 1200px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -32,7 +32,8 @@
 }
 
 .gallery-container .gallery-main-section .gallery-left-images {
-  width: 59.2%;
+  border: 2px solid black;
+  width: 50%;
   overflow: hidden;
 }
 
@@ -53,7 +54,7 @@
 }
 
 .gallery-container .gallery-main-section .gallery-right-images {
-  width: 40%;
+  width: 49.5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -67,36 +68,50 @@
   overflow: hidden;
 }
 
-.gallery-container .gallery-main-section .gallery-right-images img:nth-child(1) {
+.gallery-container .gallery-main-section .gallery-right-images .gallery-right-image-1 {
+  overflow: hidden;
+  border: 2px solid black;
   cursor: -webkit-zoom-in;
   cursor: zoom-in;
-  height: 49.5%;
+  height: 49.4%;
   -webkit-transform-origin: bottom;
           transform-origin: bottom;
+}
+
+.gallery-container .gallery-main-section .gallery-right-images .gallery-right-image-1 img {
+  height: 100%;
+  width: 100%;
   -webkit-transition: visibility 0.25s ease-in, -webkit-transform 0.25s;
   transition: visibility 0.25s ease-in, -webkit-transform 0.25s;
   transition: transform 0.25s, visibility 0.25s ease-in;
   transition: transform 0.25s, visibility 0.25s ease-in, -webkit-transform 0.25s;
 }
 
-.gallery-container .gallery-main-section .gallery-right-images img:nth-child(1):hover {
+.gallery-container .gallery-main-section .gallery-right-images .gallery-right-image-1 img:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
 
-.gallery-container .gallery-main-section .gallery-right-images img:nth-child(2) {
+.gallery-container .gallery-main-section .gallery-right-images .gallery-right-image-2 {
+  overflow: hidden;
+  border: 2px solid black;
   cursor: -webkit-zoom-in;
   cursor: zoom-in;
-  height: 49.5%;
+  height: 49.4%;
   -webkit-transform-origin: top;
           transform-origin: top;
+}
+
+.gallery-container .gallery-main-section .gallery-right-images .gallery-right-image-2 img {
+  height: 100%;
+  width: 100%;
   -webkit-transition: visibility 0.25s ease-in, -webkit-transform 0.25s;
   transition: visibility 0.25s ease-in, -webkit-transform 0.25s;
   transition: transform 0.25s, visibility 0.25s ease-in;
   transition: transform 0.25s, visibility 0.25s ease-in, -webkit-transform 0.25s;
 }
 
-.gallery-container .gallery-main-section .gallery-right-images img:nth-child(2):hover {
+.gallery-container .gallery-main-section .gallery-right-images .gallery-right-image-2 img:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
@@ -104,6 +119,7 @@
 .gallery-container .gallery-view-btn {
   padding: 20px;
   margin: 0 auto;
+  margin-bottom: 70px;
   border: 1px solid black;
   background-color: transparent;
   font-family: Karla;
@@ -147,45 +163,75 @@
   transition: all 0.5s ease-in-out !important;
 }
 
-@media screen and (min-width: 1700px) {
+@media screen and (max-width: 1400px) {
   .gallery-container .gallery-main-section {
-    height: 1200px;
+    height: 800px;
   }
   .gallery-container .gallery-main-section .gallery-left-images {
-    width: 53%;
+    width: 49.8%;
   }
-  .gallery-container .gallery-main-section .gallery-right-images {
-    width: 46.5%;
+  .gallery-container .gallery-main-section .gallery-right-images .gallery-right-image-1 {
+    height: 49.2%;
   }
-  .gallery-container .gallery-main-section .gallery-right-images img:nth-child(1) {
-    height: 49.7%;
-  }
-  .gallery-container .gallery-main-section .gallery-right-images img:nth-child(2) {
-    height: 49.7%;
+  .gallery-container .gallery-main-section .gallery-right-images .gallery-right-image-2 {
+    height: 49.2%;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .gallery-container .gallery-main-section {
-    height: 800px;
+    height: 750px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .gallery-container .gallery-main-section {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .gallery-container .gallery-main-section {
+    height: 500px;
+  }
+  .gallery-container .gallery-main-section .gallery-left-images {
+    width: 49.3%;
+  }
+  .gallery-container .gallery-main-section .gallery-right-images .gallery-right-image-1 {
+    height: 48.7%;
+  }
+  .gallery-container .gallery-main-section .gallery-right-images .gallery-right-image-2 {
+    height: 48.7%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .gallery-container .gallery-heading {
-    font-size: 1.8rem;
-  }
   .gallery-container .gallery-main-section {
-    height: 550px;
+    height: 430px;
   }
-  .gallery-container .gallery-view-btn {
-    padding: 15px;
+  .gallery-container .gallery-main-section .gallery-left-images {
+    width: 49.3%;
+  }
+  .gallery-container .gallery-main-section .gallery-right-images .gallery-right-image-1 {
+    height: 48.7%;
+  }
+  .gallery-container .gallery-main-section .gallery-right-images .gallery-right-image-2 {
+    height: 48.7%;
   }
 }
 
 @media screen and (max-width: 500px) {
   .gallery-container .gallery-main-section {
-    height: 450px;
+    height: 400px;
+  }
+  .gallery-container .gallery-main-section .gallery-left-images {
+    width: 49%;
+  }
+  .gallery-container .gallery-main-section .gallery-right-images .gallery-right-image-1 {
+    height: 48.7%;
+  }
+  .gallery-container .gallery-main-section .gallery-right-images .gallery-right-image-2 {
+    height: 48.7%;
   }
 }
 
@@ -193,11 +239,20 @@
   .gallery-container .gallery-main-section {
     height: 350px;
   }
+  .gallery-container .gallery-main-section .gallery-left-images {
+    width: 48.8%;
+  }
+  .gallery-container .gallery-main-section .gallery-right-images .gallery-right-image-1 {
+    height: 48.5%;
+  }
+  .gallery-container .gallery-main-section .gallery-right-images .gallery-right-image-2 {
+    height: 48.5%;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .gallery-container .gallery-main-section {
-    height: 300px;
+    height: 330px;
   }
 }
 /*# sourceMappingURL=gallery.css.map */

@@ -48,16 +48,19 @@ function Gallery() {
 			>
 				GALLERY
 			</p>
-			<div className="gallery-main-section">
+			<div className="gallery-main-section" >
 				<div className="gallery-left-images" data-aos="fade-right">
 					<img src={leftPic} />
 				</div>
 				<div className="gallery-right-images">
-					<img
-						src={rightPic1}
-						data-aos="fade-left"
-					/>
-					<img src={rightPic2} data-aos="fade-up" />
+					<div className="gallery-right-image-1" data-aos="fade-left">
+						<img
+							src={rightPic1}
+						/>
+					</div>
+					<div className="gallery-right-image-2" data-aos="fade-up">
+						<img src={rightPic2} />
+					</div>
 				</div>
 			</div>
 			<button

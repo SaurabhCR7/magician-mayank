@@ -41,22 +41,28 @@ function App() {
 				img={Background2}
 			/>
 			<Gallery />
+			<br></br>
 			<Quote
 				text={
 					'" Illusion is all about creating a moment of wonder & Astonishment. "'
 				}
 				img={Background3}
 			/>
+			<br></br><br></br>
 			<Testimonials />
+			<br></br><br></br>
 			<Quote
 				text={'" Magic becomes Art when it has nothing to hide. "'}
 				img={Background4}
 			/>
+			<br></br><br></br>
 			<Contact />
+			<br></br><br></br>
 			<Quote
 				text={'" Magic is believing in yourself, if you can do that, you can make anything happen. "'}
 				img={Background5}
 			/>
+			<br></br><br></br>
 			<SnackbarProvider maxSnack={3}>
 				<Book />
 			</SnackbarProvider>
