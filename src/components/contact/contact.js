@@ -44,7 +44,9 @@ function Contact() {
 					<img src={Instagram} />
 				</a>
 			</div>
-			<p className="contact-phone" data-aos="fade-up">M: +919953054029</p>
+			<p className="contact-phone" data-aos="fade-up">
+				M: +919582589350
+			</p>
 		</div>
 	);
 }
