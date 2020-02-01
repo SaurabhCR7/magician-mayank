@@ -45,7 +45,7 @@ function Contact() {
 				</a>
 			</div>
 			<p className="contact-phone" data-aos="fade-up">
-				M: +919582589350
+				<i class="fas fa-phone-volume"></i> +919582589350
 			</p>
 		</div>
 	);

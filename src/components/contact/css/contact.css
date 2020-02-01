@@ -46,6 +46,10 @@
   color: #b92e29;
 }
 
+.contact-container .contact-phone i {
+  color: #b92e29;
+}
+
 @media screen and (max-width: 1050px) {
   .contact-container .contact-card-container img {
     height: 230px;
