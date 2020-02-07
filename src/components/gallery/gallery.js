@@ -27,7 +27,7 @@ import p20 from './images/20.jpg';
 function Gallery() {
 	const handleViewBtn = () => {
 		setCount(count + 1);
-		if (count % 2 == 0) {
+		if (count % 2 === 0) {
 			setAngle('90deg');
 			setShowSub('');
 		} else {
@@ -50,16 +50,16 @@ function Gallery() {
 			</p>
 			<div className="gallery-main-section" >
 				<div className="gallery-left-images" data-aos="fade-right">
-					<img src={leftPic} />
+					<img src={leftPic} alt="leftPic" />
 				</div>
 				<div className="gallery-right-images">
 					<div className="gallery-right-image-1" data-aos="fade-left">
 						<img
-							src={rightPic1}
+							src={rightPic1} alt="rightPic1"
 						/>
 					</div>
 					<div className="gallery-right-image-2" data-aos="fade-up">
-						<img src={rightPic2} />
+						<img src={rightPic2} alt="rightPic2" />
 					</div>
 				</div>
 			</div>

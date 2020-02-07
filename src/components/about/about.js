@@ -9,6 +9,7 @@ function About() {
 				<img
 					src={aboutImg}
 					data-aos="fade-right"
+					alt="about"
 				/>
 				<div className="about-content-container" data-aos="fade-left">
 					<p

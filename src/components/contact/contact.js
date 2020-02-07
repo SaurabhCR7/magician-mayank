@@ -17,31 +17,35 @@ function Contact() {
 					href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=mayankthemagician@gmail.com&tf=1"
 					target="_blank"
 					data-aos="fade-right"
+					rel="noopener noreferrer"
 				>
-					<img src={Mail} />
+					<img src={Mail} alt="mail" />
 				</a>
 				<a
 					href="https://www.facebook.com/mayankthemagician"
 					target="_blank"
 					data-aos="fade-up"
 					data-aos-delay="100"
+					rel="noopener noreferrer"
 				>
-					<img src={Fb} />
+					<img src={Fb} alt="facebook" />
 				</a>
 				<a
 					href="https://www.youtube.com/channel/UCygVdgXP52u4sesm8Ei2tuA"
 					target="_blank"
 					data-aos="fade-up"
 					data-aos-delay="100"
+					rel="noopener noreferrer"
 				>
-					<img src={Youtube} />
+					<img src={Youtube} alt="youtube" />
 				</a>
 				<a
 					href="https://www.instagram.com/magicianmayank/"
 					target="_blank"
+					rel="noopener noreferrer"
 					data-aos="fade-left"
 				>
-					<img src={Instagram} />
+					<img src={Instagram} alt="instagram" />
 				</a>
 			</div>
 			<p className="contact-phone" data-aos="fade-up">

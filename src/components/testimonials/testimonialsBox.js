@@ -4,10 +4,10 @@ import './css/testimonialsBox.css';
 function TestimonialsBox(props) {
 	return (
 		<div className="testimonials-box-container" id="testimonials" >
-      <img src={props.image} className="testimonials-pic" height="50px" width="50px" />
+      <img src={props.image} className="testimonials-pic" height="50px" width="50px" alt="testimonialBox"/>
       <p className="testimonials-quote">{props.quote}</p>
       <p className="testimonials-name">{props.name}</p>
-      {props.link ? <a href={props.link} target="_blank" className="testimonials-link" >(Watch here)</a> : <p className="blank-space"></p>}
+         {props.link ? <a href={props.link} target="_blank" rel="noopener noreferrer"className="testimonials-link" >(Watch here)</a> : <p className="blank-space"></p>}
 		</div>
 	);
 }

@@ -43,6 +43,7 @@ function Videos() {
 					frameborder="1"
 					allow="accelerometer; autoplay; encrypted-media;"
 					allowfullscreen="true"
+					title="52 Shades Of Red"
 				></iframe>
 				<iframe
 					data-aos="fade-left"
@@ -52,6 +53,7 @@ function Videos() {
 					frameborder="1"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen="true"
+					title="Teaser"
 				></iframe>
 			</div>
 			<br />
@@ -72,6 +74,7 @@ function Videos() {
 					frameborder="1"
 					allow="accelerometer; autoplay; encrypted-media;"
 					allowfullscreen="true"
+					title="Extraction"
 				></iframe>
 				<iframe
 					data-aos="fade-left"
@@ -79,6 +82,7 @@ function Videos() {
 					frameborder="1"
 					allow="accelerometer; autoplay; encrypted-media;"
 					allowfullscreen="true"
+					title="Faded"
 				></iframe>
 			</div>
 			<br />
