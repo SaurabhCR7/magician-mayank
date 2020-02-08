@@ -9,9 +9,9 @@ import Instagram from './images/instagram.png';
 function Contact() {
 	return (
 		<div className="contact-container" id="contact">
-			<p className="contact-heading" data-aos="fade-up">
+			<h1 className="contact-heading" data-aos="fade-up">
 				CONTACT
-			</p>
+			</h1>
 			<div className="contact-card-container">
 				<a
 					href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=mayankthemagician@gmail.com&tf=1"
@@ -48,9 +48,9 @@ function Contact() {
 					<img src={Instagram} alt="instagram" />
 				</a>
 			</div>
-			<p className="contact-phone" data-aos="fade-up">
+			<h3 className="contact-phone" data-aos="fade-up">
 				<i class="fas fa-phone-volume"></i> +919582589350
-			</p>
+			</h3>
 		</div>
 	);
 }
