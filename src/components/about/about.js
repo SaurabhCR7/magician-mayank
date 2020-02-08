@@ -12,12 +12,12 @@ function About() {
 					alt="about"
 				/>
 				<div className="about-content-container" data-aos="fade-left">
-					<p
+					<h1
 						className="about-section-heading"
 					>
 						WHO AM I?
-					</p>
-					<p
+					</h1>
+					<h1
 						className="about-section-content"
 					>
 						Mayank Shekhar, is a Close-up Illusionist based in New Delhi, India.
@@ -35,7 +35,7 @@ function About() {
 						for 5 years. And at such young age, he has established himself as an
 						"International Magic Creator" by releasing his original creations of
 						magic tricks on a global platform.
-					</p>
+					</h1>
 				</div>
 			</div>
 		</div>

@@ -22,14 +22,14 @@ function Videos() {
 	};
 	return (
 		<div className="videos-container" id="videos">
-			<p
+			<h1
 				className="videos-heading"
 				data-aos="fade-up"
 				data-aos-delay="70"
 				data-aos-duration="1200"
 			>
 				VIDEOS
-			</p>
+			</h1>
 			<TrackVisibility className="trackVisibility">{Player}</TrackVisibility>
 			<br />
 			<br />
@@ -59,14 +59,14 @@ function Videos() {
 			<br />
 			<br />
 			<br />
-			<p
+			<h1
 				className="subvideos-heading"
 				data-aos="fade-up"
 				data-aos-delay="70"
 				data-aos-duration="1200"
 			>
 				GLOBALLY PUBLISHED MAGIC TRICKS
-			</p>
+			</h1>
 			<div className="main-subvideos">
 				<iframe
 					data-aos="fade-right"

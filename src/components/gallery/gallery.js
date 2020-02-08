@@ -40,14 +40,14 @@ function Gallery() {
 	const [showSub, setShowSub] = useState('none');
 	return (
 		<div className="gallery-container" id="gallery">
-			<p
+			<h1
 				className="gallery-heading"
 				data-aos="fade-up"
 				data-aos-delay="50"
 				data-aos-duration="1200"
 			>
 				GALLERY
-			</p>
+			</h1>
 			<div className="gallery-main-section" >
 				<div className="gallery-left-images" data-aos="fade-right">
 					<img src={leftPic} alt="leftPic" />

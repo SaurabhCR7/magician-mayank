@@ -9,17 +9,17 @@ function Home() {
 	return (
 		<div className="home-main-container" id="home">
 			<div className="home-container">
-				<p className="home-text" data-aos="fade-up"> 
+				<h1 className="home-text" data-aos="fade-up"> 
 					WELCOME TO
-				</p>
-				<p
+				</h1>
+				<h1
 					className="home-subtext"
 					data-aos="fade-up"
 					data-aos-delay="300"
 					data-aos-duration="1200"
 				>
 					THE ART OF ILLUSION
-				</p>
+				</h1>
 			</div>
 		</div>
 	);

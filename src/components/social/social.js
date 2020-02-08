@@ -4,9 +4,9 @@ import './css/social.css';
 function Social() {
 	return (
 		<div className="social-container">
-			<p className="social-heading" data-aos="fade-up">
+			<h1 className="social-heading" data-aos="fade-up">
 				ON SOCIAL NETWORKS
-			</p>
+			</h1>
 			<div className="social-links-container">
 				<a
 					href="https://www.facebook.com/mayankthemagician"

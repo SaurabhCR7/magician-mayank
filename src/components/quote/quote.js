@@ -7,8 +7,8 @@ function Quote(props) {
 			className="quote-container"
 			style={{ backgroundImage: `url(${props.img})` }}
 		>
-			<p className="quote-text">{props.text}</p>
-			{props.author ? <p className="quote-author" >{props.author}</p> : null}
+			<h1 className="quote-text">{props.text}</h1>
+			{props.author ? <h1 className="quote-author" >{props.author}</h1> : null}
 		</div>
 	);
 }
