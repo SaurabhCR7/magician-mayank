@@ -26,14 +26,17 @@ function App() {
 			<Navbar />
 			<Home />
 			<About />
+			<br></br><br></br><br></br><br></br><br></br><br></br>
 			<Quote
 				text={
-					'" Magic Lies in your Imagination, My job is to bring that imagination into life. " '  
+					'" Magic Lies in your Imagination, My job is to bring that imagination into life. " '
 				}
 				author={'~Mayank Shekhar'}
 				img={Background1}
 			/>
+			<br></br><br></br><br></br><br></br><br></br><br></br>
 			<Videos />
+			<br></br><br></br><br></br><br></br><br></br><br></br>
 			<Quote
 				text={
 					'" Those  who  do  not  believe  in  Magic  will  never  find  it. "'
@@ -48,21 +51,29 @@ function App() {
 				}
 				img={Background3}
 			/>
-			<br></br><br></br>
+			<br></br>
+			<br></br>
 			<Testimonials />
-			<br></br><br></br>
+			<br></br>
+			<br></br>
 			<Quote
 				text={'" Magic becomes Art when it has nothing to hide. "'}
 				img={Background4}
 			/>
-			<br></br><br></br>
+			<br></br>
+			<br></br>
 			<Contact />
-			<br></br><br></br>
+			<br></br>
+			<br></br>
 			<Quote
-				text={'" Magic is believing in yourself, if you can do that, you can make anything happen. "'}
+				text={
+					'" Magic is believing in yourself, if you can do that, you can make anything happen. "'
+				}
 				img={Background5}
 			/>
-			<br></br><br></br><br></br>
+			<br></br>
+			<br></br>
+			<br></br>
 			<SnackbarProvider maxSnack={3}>
 				<Book />
 			</SnackbarProvider>

@@ -48,33 +48,28 @@ function Gallery() {
 			>
 				GALLERY
 			</h1>
-			<div className="gallery-main-section" >
+			<div className="gallery-main-section">
 				<div className="gallery-left-images" data-aos="fade-right">
 					<img src={leftPic} alt="leftPic" />
 				</div>
 				<div className="gallery-right-images">
 					<div className="gallery-right-image-1" data-aos="fade-left">
-						<img
-							src={rightPic1} alt="rightPic1"
-						/>
+						<img src={rightPic1} alt="rightPic1" />
 					</div>
 					<div className="gallery-right-image-2" data-aos="fade-up">
 						<img src={rightPic2} alt="rightPic2" />
 					</div>
 				</div>
 			</div>
-			<button
-				className="gallery-view-btn"
-				onClick={handleViewBtn}
-			>
+			<button className="gallery-view-btn" onClick={handleViewBtn}>
 				VIEW MORE &nbsp;{' '}
 				<i
 					class="fas fa-chevron-right"
 					style={{ transform: `rotate(${angle})` }}
 				></i>
 			</button>
-			<div className="gallery-subsection" style={{display:`${showSub}`}} >
-				<SubGallery image={p1} title={'NSUT'}  />
+			<div className="gallery-subsection" style={{ display: `${showSub}` }}>
+				<SubGallery image={p1} title={'NSUT'} />
 				<SubGallery image={p2} title={'THEATRE'} />
 				<SubGallery image={p3} title={'IITF 2019'} />
 				<SubGallery image={p5} title={'MAYA MAYA'} />
