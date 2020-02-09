@@ -31,7 +31,7 @@ function App() {
 				text={
 					'" Magic Lies in your Imagination, My job is to bring that imagination into life. " '
 				}
-				author={'~Mayank Shekhar'}
+				author={'~ Magician Mayank Shekhar'}
 				img={Background1}
 			/>
 			<br></br><br></br><br></br><br></br><br></br><br></br>
