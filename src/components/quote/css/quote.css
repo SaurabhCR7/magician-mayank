@@ -1,4 +1,16 @@
-.quote-container {
+.quote hr {
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  color: grey;
+  border: 1px solid grey;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.quote .quote-container {
   height: 200px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -15,11 +27,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
 }
 
-.quote-container .quote-text {
+.quote .quote-container .quote-text {
   margin-top: 50px;
   margin-bottom: 50px;
   height: 100%;
@@ -36,47 +46,29 @@
   font-family: EB Garamond;
   font-style: normal;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 47px;
   letter-spacing: 0.085em;
   color: #f9f9f9;
 }
 
-.quote-container .quote-author {
-  margin-top: 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: EB Garamond;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.8rem;
-  letter-spacing: 0.085em;
-  color: #f9f9f9;
-}
-
 @media screen and (max-width: 550px) {
-  .quote-container {
+  .quote hr {
+    width: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .quote .quote-container {
     height: 130px;
     display: block;
     background-size: cover;
   }
-  .quote-container .quote-text {
-    font-size: 0.9rem;
+  .quote .quote-container .quote-text {
+    font-size: 0.7rem;
     letter-spacing: 0.1em;
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 20px;
-  }
-  .quote-container .quote-author {
-    font-size: 0.8rem;
-    margin-top: -50px;
   }
 }
 /*# sourceMappingURL=quote.css.map */

@@ -1,5 +1,6 @@
 .gallery-container {
 	overflow: hidden;
+	background-color: black;
 	.gallery-heading {
 		cursor: default;
 		text-align: center;
@@ -8,7 +9,7 @@
 		font-weight: bold;
 		font-size: 4rem;
 		letter-spacing: 0.135em;
-		color: #000000;
+		color: lightgray;
 		margin: 100px 0px 100px 0px;
 		padding: 0px;
 	}
@@ -20,9 +21,9 @@
 		flex-direction: row;
 		margin-bottom: 80px;
 		.gallery-left-images {
-			border: 1px solid black;
 			width: 50%;
 			overflow: hidden;
+			border: 3px solid black;
 			img {
 				height:100%; 
 				width:100%;
@@ -34,16 +35,16 @@
 			}
 		}
 		.gallery-right-images {
-			width: 49.5%;
+			width: 50%;
 			display: flex;
 			flex-direction: column;
 			justify-content: space-between;
 			overflow: hidden;
 			.gallery-right-image-1{
 				overflow: hidden;
-				border: 1px solid black;
 				cursor: zoom-in;
-				height: 49.4%;
+				border: 3px solid black;
+				height: 50%;
 				transform-origin: bottom;
 				img{
 					height: 100%;
@@ -56,9 +57,9 @@
 			}
 			.gallery-right-image-2{
 				overflow: hidden;
-				border: 1px solid black;
+				border: 3px solid black;
 				cursor: zoom-in;
-				height: 49.4%;
+				height: 50%;
 				transform-origin: top;
 				img{
 					height: 100%;
@@ -75,7 +76,7 @@
 		padding: 20px;
 		margin: 0 auto;
 		margin-bottom: 70px;
-		border: 1px solid black;
+		border: 1px solid lightgray;
 		background-color: transparent;
 		font-family: Karla;
 		font-style: normal;
@@ -84,7 +85,7 @@
 		align-items: center;
 		text-align: center;
 		letter-spacing: 0.085em;
-		color: #000000;
+		color: lightgray;
 		transition: all 0.3s ease-in-out;
 		cursor: pointer;
 		i {
@@ -109,7 +110,7 @@
 		.gallery-main-section{
 			height: 800px;
 			.gallery-left-images{
-				width: 49.8%;
+				width: 50%;
 			}
 			.gallery-right-images{
 				.gallery-right-image-1{

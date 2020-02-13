@@ -1,5 +1,6 @@
 .gallery-container {
   overflow: hidden;
+  background-color: black;
 }
 
 .gallery-container .gallery-heading {
@@ -10,7 +11,7 @@
   font-weight: bold;
   font-size: 4rem;
   letter-spacing: 0.135em;
-  color: #000000;
+  color: lightgray;
   margin: 100px 0px 100px 0px;
   padding: 0px;
 }
@@ -32,9 +33,9 @@
 }
 
 .gallery-container .gallery-main-section .gallery-left-images {
-  border: 1px solid black;
   width: 50%;
   overflow: hidden;
+  border: 3px solid black;
 }
 
 .gallery-container .gallery-main-section .gallery-left-images img {
@@ -54,7 +55,7 @@
 }
 
 .gallery-container .gallery-main-section .gallery-right-images {
-  width: 49.5%;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -70,10 +71,10 @@
 
 .gallery-container .gallery-main-section .gallery-right-images .gallery-right-image-1 {
   overflow: hidden;
-  border: 1px solid black;
   cursor: -webkit-zoom-in;
   cursor: zoom-in;
-  height: 49.4%;
+  border: 3px solid black;
+  height: 50%;
   -webkit-transform-origin: bottom;
           transform-origin: bottom;
 }
@@ -94,10 +95,10 @@
 
 .gallery-container .gallery-main-section .gallery-right-images .gallery-right-image-2 {
   overflow: hidden;
-  border: 1px solid black;
+  border: 3px solid black;
   cursor: -webkit-zoom-in;
   cursor: zoom-in;
-  height: 49.4%;
+  height: 50%;
   -webkit-transform-origin: top;
           transform-origin: top;
 }
@@ -120,7 +121,7 @@
   padding: 20px;
   margin: 0 auto;
   margin-bottom: 70px;
-  border: 1px solid black;
+  border: 1px solid lightgray;
   background-color: transparent;
   font-family: Karla;
   font-style: normal;
@@ -133,7 +134,7 @@
           align-items: center;
   text-align: center;
   letter-spacing: 0.085em;
-  color: #000000;
+  color: lightgray;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
@@ -168,7 +169,7 @@
     height: 800px;
   }
   .gallery-container .gallery-main-section .gallery-left-images {
-    width: 49.8%;
+    width: 50%;
   }
   .gallery-container .gallery-main-section .gallery-right-images .gallery-right-image-1 {
     height: 49.2%;
