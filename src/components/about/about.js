@@ -20,7 +20,7 @@ function About() {
 					<h2
 						className="about-section-content"
 					>
-						Magician Mayank is a theatre and corporate magician, who performs Visual Magic in India. You can hire him for a Corporate Event, Product Launch, Brand promotion. <br />
+						Magician Mayank is a theatre and corporate magician, who performs Visual Magic Worldwide. You can hire him for a Corporate Event, Product Launch, Brand promotion. <br />
 						<br />
 						His style of Magic is unique and unlike any other performer out
 						there. Magician Mayank has made himself so skilled by practicing hours and hours
