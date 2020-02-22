@@ -11,25 +11,24 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .testimonials-box-container .testimonials-pic {
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  height: 120px;
+  width: 120px;
   margin: 0 auto;
 }
 
 .testimonials-box-container .testimonials-quote {
   text-align: center;
-  font-size: 0.7rem;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 0.085em;
+  font-size: 0.8rem;
+  font-family: karla;
   color: #181818;
   overflow-y: auto;
-  height: 80px;
+  height: 50px;
   margin: 20px 0px 0px 0px;
   text-align: center;
 }
@@ -37,7 +36,7 @@
 .testimonials-box-container .testimonials-name {
   margin: 0px;
   font-size: 1.1rem;
-  font-family: Poppins;
+  font-family: karla;
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0.085em;
@@ -47,7 +46,7 @@
 
 .testimonials-box-container .testimonials-link {
   font-size: 0.7rem;
-  font-family: Poppins;
+  font-family: karla;
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0.085em;

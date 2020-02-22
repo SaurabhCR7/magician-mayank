@@ -17,9 +17,10 @@
 }
 
 .footer-container .footer-inner-container .footer-txt {
-  font-family: Roboto;
-  font-size: 1.1rem;
+  font-family: karla;
+  font-size: 1rem;
   line-height: 23px;
+  font-weight: 400;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

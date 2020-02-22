@@ -41,7 +41,7 @@
 }
 
 .book-container form .book-subform input {
-  font-family: Poppins;
+  font-family: karla;
   font-style: normal;
   font-weight: 300;
   font-size: 1.1rem;
@@ -58,7 +58,7 @@
 
 .book-container form textarea {
   margin-bottom: 70px;
-  font-family: Poppins;
+  font-family: karla;
   font-style: normal;
   font-weight: 300;
   font-size: 1.1rem;
@@ -74,7 +74,7 @@
 .book-container form .book-submit-btn {
   margin: 0 auto;
   padding: 15px 0px 15px 0px;
-  background-color: transparent;
+  background-color: black;
   border: 1px solid black;
   width: 160px;
   font-family: Karla;
@@ -83,7 +83,7 @@
   font-size: 1.2rem;
   text-align: center;
   letter-spacing: 0.085em;
-  color: #000000;
+  color: white;
   margin-bottom: 70px;
   cursor: pointer;
   -webkit-transition: all 0.5s ease-in-out !important;
@@ -91,8 +91,8 @@
 }
 
 .book-container form .book-submit-btn:hover {
-  background-color: #000000;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 @media screen and (min-width: 1700px) {

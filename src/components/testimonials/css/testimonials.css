@@ -1,5 +1,6 @@
 .testimonials-container {
   overflow: hidden;
+  padding-bottom: 20px;
 }
 
 .testimonials-container .testimonials-heading {
