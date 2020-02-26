@@ -44,6 +44,7 @@ function Videos() {
 					allow="accelerometer; autoplay; encrypted-media;"
 					allowfullscreen="true"
 					title="52 Shades Of Red"
+					origin="https://www.magicianmayank.com"
 				></iframe>
 				<iframe
 					data-aos="fade-left"
@@ -54,6 +55,7 @@ function Videos() {
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen="true"
 					title="Teaser"
+					origin="https://www.magicianmayank.com"
 				></iframe>
 			</div>
 			<br />
@@ -75,6 +77,7 @@ function Videos() {
 					allow="accelerometer; autoplay; encrypted-media;"
 					allowfullscreen="true"
 					title="Extraction"
+					origin="https://www.magicianmayank.com"
 				></iframe>
 				<iframe
 					data-aos="fade-left"
@@ -83,6 +86,7 @@ function Videos() {
 					allow="accelerometer; autoplay; encrypted-media;"
 					allowfullscreen="true"
 					title="Faded"
+					origin="https://www.magicianmayank.com"
 				></iframe>
 			</div>
 			<br />
