@@ -2,8 +2,5 @@ User-agent: *
 Disallow: /static/css/2.06565635.chunk.css
 Disallow: /static/js/main.5b96477f.chunk.js
 Disallow: /static/css/main.1dd1165b.chunk.css
-Disallow: https://fonts.googleapis.com/css?family=Open+Sans:800&display=swap
-Disallow: https://fonts.googleapis.com/css?family=Karla:400,700&display=swap
 Disallow: /static/js/2.ea3815ce.chunk.js
-Disallow: https://use.fontawesome.com/releases/v5.8.2/css/all.css
 Sitemap: https://www.magicianmayank.com/sitemap.xml
