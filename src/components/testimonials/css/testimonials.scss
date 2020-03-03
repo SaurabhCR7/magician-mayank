@@ -1,5 +1,4 @@
 .testimonials-container{
-  overflow: hidden;
   padding-bottom: 20px;
   .testimonials-heading{
     text-align: center;
@@ -9,22 +8,24 @@
 		font-size: 4rem;
 		letter-spacing: 0.135em;
 		color: #000000;
-    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 150px;
     padding: 0px;
   }
   .testimonials-subcontainer{
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-around;
+    width: 50%;
+    margin: 0 auto;
+    .each-slide{
+      margin: 0 auto;
+      width: 350px;
+    }
   }
 }
+
 @media screen and (max-width: 700px) {
-  .testimonials-container{
-    .testimonials-heading{
-      font-size: 1.8rem;
-    }
+	.testimonials-container{
     .testimonials-subcontainer{
-      margin-top: 50px;
+      width: 100%;
     }
-  }
+  }	
 }

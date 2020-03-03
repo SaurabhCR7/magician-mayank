@@ -3,7 +3,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import './css/navbar.css';
 
 const inactiveStyle = {
-	color: '	#303030'
+	color: 'grey'
 };
 
 function Navbar() {
