@@ -148,6 +148,7 @@
 .gallery-container .gallery-view-btn:hover {
   color: white;
   background-color: black;
+  border: 3px solid lightgray;
 }
 
 .gallery-container .gallery-subsection {
