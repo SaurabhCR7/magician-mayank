@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './css/gallery.css';
 import SubGallery from './subgallery';
+import { Slide } from 'react-slideshow-image';
+import MediaQuery from 'react-responsive';
 
 import leftPic from './images/main/4.jpg';
 import rightPic1 from './images/main/6.jpg';
@@ -23,6 +25,16 @@ import p17 from './images/17.jpg';
 import p18 from './images/18.jpg';
 import p19 from './images/19.jpg';
 import p20 from './images/20.jpg';
+
+const properties = {
+	duration: 5000,
+	transitionDuration: 500,
+	infinite: true,
+	arrows: true,
+	onChange: (oldIndex, newIndex) => {
+		console.log(`slide transition from ${oldIndex} to ${newIndex}`);
+	}
+};
 
 function Gallery() {
 	const handleViewBtn = () => {
@@ -48,46 +60,116 @@ function Gallery() {
 			>
 				GALLERY
 			</h1>
-			<div className="gallery-main-section">
-				<div className="gallery-left-images" data-aos="fade-right">
-					<img src={leftPic} alt="leftPic" />
-				</div>
-				<div className="gallery-right-images">
-					<div className="gallery-right-image-1" data-aos="fade-left">
-						<img src={rightPic1} alt="rightPic1" />
+			<MediaQuery minDeviceWidth={601}>
+				<div className="gallery-main-section">
+					<div className="gallery-left-images" data-aos="fade-right">
+						<img src={leftPic} alt="leftPic" />
 					</div>
-					<div className="gallery-right-image-2" data-aos="fade-up">
-						<img src={rightPic2} alt="rightPic2" />
+					<div className="gallery-right-images">
+						<div className="gallery-right-image-1" data-aos="fade-left">
+							<img src={rightPic1} alt="rightPic1" />
+						</div>
+						<div className="gallery-right-image-2" data-aos="fade-up">
+							<img src={rightPic2} alt="rightPic2" />
+						</div>
 					</div>
 				</div>
-			</div>
-			<button className="gallery-view-btn" onClick={handleViewBtn}>
-				VIEW MORE &nbsp;{' '}
-				<i
-					className="fas fa-chevron-right"
-					style={{ transform: `rotate(${angle})` }}
-				></i>
-			</button>
-			<div className="gallery-subsection" style={{ display: `${showSub}` }}>
-				<SubGallery image={p1} title={'NSUT'} />
-				<SubGallery image={p2} title={'THEATRE'} />
-				<SubGallery image={p3} title={'IITF 2019'} />
-				<SubGallery image={p5} title={'MAYA MAYA'} />
-				<SubGallery image={p6} title={'CORPORATE'} />
-				<SubGallery image={p7} title={'THEATRE'} />
-				<SubGallery image={p8} title={'SHAHNAZ HUSSAIN'} />
-				<SubGallery image={p9} title={'THEATRE'} />
-				<SubGallery image={p10} title={'DTU'} />
-				<SubGallery image={p11} title={'CORPORATE'} />
-				<SubGallery image={p12} title={'CLOSE UP'} />
-				<SubGallery image={p13} title={'CORPORATE'} />
-				<SubGallery image={p14} title={'AWARD'} />
-				<SubGallery image={p16} title={'THEATRE'} />
-				<SubGallery image={p17} title={'DUBAI'} />
-				<SubGallery image={p18} title={'CORPORATE'} />
-				<SubGallery image={p19} title={'CCI'} />
-				<SubGallery image={p20} title={'CCI'} />
-			</div>
+				<button className="gallery-view-btn" onClick={handleViewBtn}>
+					VIEW MORE &nbsp;{' '}
+					<i
+						className="fas fa-chevron-right"
+						style={{ transform: `rotate(${angle})` }}
+					></i>
+				</button>
+				<div className="gallery-subsection" style={{ display: `${showSub}` }}>
+					<SubGallery image={p1} title={'NSUT'} />
+					<SubGallery image={p2} title={'THEATRE'} />
+					<SubGallery image={p3} title={'IITF 2019'} />
+					<SubGallery image={p5} title={'MAYA MAYA'} />
+					<SubGallery image={p6} title={'CORPORATE'} />
+					<SubGallery image={p7} title={'THEATRE'} />
+					<SubGallery image={p8} title={'SHAHNAZ HUSSAIN'} />
+					<SubGallery image={p9} title={'THEATRE'} />
+					<SubGallery image={p10} title={'DTU'} />
+					<SubGallery image={p11} title={'CORPORATE'} />
+					<SubGallery image={p12} title={'CLOSE UP'} />
+					<SubGallery image={p13} title={'CORPORATE'} />
+					<SubGallery image={p14} title={'AWARD'} />
+					<SubGallery image={p16} title={'THEATRE'} />
+					<SubGallery image={p17} title={'DUBAI'} />
+					<SubGallery image={p18} title={'CORPORATE'} />
+					<SubGallery image={p19} title={'CCI'} />
+					<SubGallery image={p20} title={'CCI'} />
+				</div>
+			</MediaQuery>
+			<MediaQuery maxDeviceWidth={600}>
+				<Slide {...properties} className="gallery-slide-container">
+					<div className="each-slide">
+						<img src={leftPic} alt="pic" height="500px" width="100%"/>
+					</div>
+					<div className="each-slide">
+						<img src={rightPic1} alt="pic" height="300px" width="100%" />
+					</div>
+					<div className="each-slide">
+						<img src={rightPic2} alt="pic" height="300px" width="100%" />
+					</div>
+					<div className="each-slide">
+						<img src={p1} alt="pic" height="300px" width="100%" />
+					</div>
+					<div className="each-slide">
+						<img src={p2} alt="pic" height="300px" width="100%" />
+					</div>
+					<div className="each-slide">
+						<img src={p3} alt="pic" height="300px" width="100%" />
+					</div>
+					<div className="each-slide">
+						<img src={p5} alt="pic" height="300px" width="100%" />
+					</div>
+					<div className="each-slide">
+						<img src={p6} alt="pic" height="300px" width="100%" />
+					</div>
+					<div className="each-slide">
+						<img src={p7} alt="pic" height="300px" width="100%" />
+					</div>
+					<div className="each-slide">
+						<img src={p8} alt="pic" height="500px" width="100%" />
+					</div>
+					<div className="each-slide">
+						<img src={p9} alt="pic" height="300px" width="100%" />
+					</div>
+					<div className="each-slide">
+						<img src={p10} alt="pic" height="300px" width="100%" />
+					</div>
+					<div className="each-slide">
+						<img src={p11} alt="pic" height="300px" width="100%" />
+					</div>
+					<div className="each-slide">
+						<img src={p12} alt="pic" height="300px" width="100%" />
+					</div>
+					<div className="each-slide">
+						<img src={p13} alt="pic" height="300px" width="100%" />
+					</div>
+					<div className="each-slide">
+						<img src={p14} alt="pic" height="500px" width="100%" />
+					</div>
+					<div className="each-slide">
+						<img src={p16} alt="pic" height="300px" width="100%" />
+					</div>
+					<div className="each-slide">
+						<img src={p17} alt="pic" height="500px" width="100%" />
+					</div>
+					<div className="each-slide">
+						<img src={p18} alt="pic" height="300px" width="100%" />
+					</div>
+					<div className="each-slide">
+						<img src={p19} alt="pic" height="300px" width="100%" />
+					</div>
+					<div className="each-slide">
+						<img src={p20} alt="pic" height="300px" width="100%" />
+					</div>
+				</Slide>
+				<br></br><br></br>
+			</MediaQuery>
 		</div>
 	);
 }
