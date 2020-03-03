@@ -76,8 +76,8 @@
 		padding: 20px;
 		margin: 0 auto;
 		margin-bottom: 70px;
-		border: 3px solid black;
-		background-color: lightgray;
+		border: 3px solid lightgray;
+		background-color: transparent;
 		font-family: Karla;
 		font-style: normal;
 		font-size: 1rem;
@@ -85,7 +85,7 @@
 		align-items: center;
 		text-align: center;
 		letter-spacing: 0.085em;
-		color: black;
+		color: lightgray;
 		transition: all 0.3s ease-in-out;
 		cursor: pointer;
 		i {
@@ -95,7 +95,6 @@
 	.gallery-view-btn:hover {
 		color: white;
 		background-color: black;
-		border: 3px solid lightgray;
 	}
 	.gallery-subsection{
 		margin-top: 100px;
