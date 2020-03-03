@@ -19,17 +19,36 @@
 			line-height: 40px;
 			letter-spacing: 0.1em;
 			color: rgba(255, 255, 255, 0.7);
+			cursor: default;
 		}
 		.home-subtext {
 			text-align: center;
 			font-family: 'Open Sans', sans-serif;
 			font-style: normal;
-			margin-top: 10px;
+			margin-top: 20px;
 			font-size: 5rem;
 			font-weight: bolder;
 			line-height: 40px;
 			letter-spacing: 0.2em;
 			color: rgba(255, 255, 255, 0.7);
+			cursor: default;
+		}
+		.home-link {
+			width: 150px;
+			padding: 20px;
+			text-decoration: none;
+			font-family: karla;
+			font-weight: bold;
+			letter-spacing: 1px;
+			font-size: 1.2rem;
+			background-color: black;
+			color: white;
+			margin: 0 auto;
+			transition: all 0.3s ease-in-out!important;
+		}
+		.home-link:hover {
+			background-color: white;
+			color: black;
 		}
 	}
 }
@@ -71,11 +90,9 @@
 		.home-container {
 			height: 100vh;
 			.home-text {
-				
 				font-size: 1.5rem;
 			}
 			.home-subtext {
-				
 				font-size: 3rem;
 			}
 		}
@@ -134,7 +151,6 @@
 		.home-container {
 			.home-subtext {
 				font-size: 1.5rem;
-				
 			}
 		}
 	}
@@ -144,7 +160,6 @@
 		.home-container {
 			.home-subtext {
 				font-size: 1.3rem;
-				
 			}
 		}
 	}
