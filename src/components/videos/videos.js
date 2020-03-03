@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import TrackVisibility from 'react-on-screen';
-import ReactPlayer from 'react-player';
+import MediaQuery from 'react-responsive';
+import YouTubePlayer from 'react-player/lib/players/YouTube';
 import './css/videos.css';
 
 function Videos() {
@@ -8,15 +9,30 @@ function Videos() {
 	const Player = props => {
 		updatePlayState(props.isVisible);
 		return (
-			<ReactPlayer
-				url="https://youtu.be/EWaNLBq-VgM"
-				width="100%"
-				height="70vh"
-				playing={shouldPlay}
-				loop={true}
-				controls={false}
-				muted={true}
-			/>
+			<div>
+				<MediaQuery minDeviceWidth={601}>
+					<YouTubePlayer
+						url="https://youtu.be/EWaNLBq-VgM?showinfo=0&enablejsapi=1&origin=https://www.magicianmayank.com"
+						width="100%"
+						height="100vh"
+						playing={shouldPlay}
+						loop={true}
+						controls={false}
+						muted={true}
+					/>
+				</MediaQuery>
+				<MediaQuery maxDeviceWidth={600}>
+					<YouTubePlayer
+						url="https://youtu.be/EWaNLBq-VgM?showinfo=0&enablejsapi=1&origin=https://www.magicianmayank.com"
+						width="100%"
+						height="30vh"
+						playing={shouldPlay}
+						loop={true}
+						controls={false}
+						muted={true}
+					/>
+				</MediaQuery>
+			</div>
 		);
 	};
 	return (
@@ -29,7 +45,9 @@ function Videos() {
 			>
 				VIDEOS
 			</h1>
-			<TrackVisibility className="trackVisibility">{Player}</TrackVisibility>
+			<TrackVisibility className="trackVisibility" partialVisibility>
+				{Player}
+			</TrackVisibility>
 			<br />
 			<br />
 			<br />
