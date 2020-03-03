@@ -26,6 +26,9 @@
 }
 
 @media screen and (max-width: 700px) {
+  .testimonials-container .testimonials-heading {
+    font-size: 2rem;
+  }
   .testimonials-container .testimonials-subcontainer {
     width: 100%;
   }
