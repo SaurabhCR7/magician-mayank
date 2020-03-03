@@ -13,10 +13,9 @@ function Videos() {
 				width="100%"
 				height="70vh"
 				playing={shouldPlay}
-				loop="true"
-				controls="false"
-				muted="true"
-				forceVideo="true"
+				loop={true}
+				controls={false}
+				muted={true}
 			/>
 		);
 	};
@@ -40,9 +39,9 @@ function Videos() {
 				<iframe
 					data-aos="fade-right"
 					src="https://www.youtube.com/embed/hZhcCu-uzD4?showinfo=0&enablejsapi=1&origin=https://www.magicianmayank.com"
-					frameborder="1"
+					frameBorder="1"
 					allow="accelerometer; autoplay; encrypted-media;"
-					allowfullscreen="true"
+					allowFullScreen={true}
 					title="52 Shades Of Red"
 				></iframe>
 				<iframe
@@ -50,9 +49,9 @@ function Videos() {
 					width="560"
 					height="315"
 					src="https://www.youtube.com/embed/9jCPorZO5mA?showinfo=0&enablejsapi=1&origin=https://www.magicianmayank.com"
-					frameborder="1"
+					frameBorder="1"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen="true"
+					allowFullScreen={true}
 					title="Teaser"
 				></iframe>
 			</div>
@@ -71,17 +70,17 @@ function Videos() {
 				<iframe
 					data-aos="fade-right"
 					src="https://www.youtube.com/embed/hq27x612hwI?showinfo=0&enablejsapi=1&origin=https://www.magicianmayank.com"
-					frameborder="1"
+					frameBorder="1"
 					allow="accelerometer; autoplay; encrypted-media;"
-					allowfullscreen="true"
+					allowFullScreen={true}
 					title="Extraction"
 				></iframe>
 				<iframe
 					data-aos="fade-left"
 					src="https://www.youtube.com/embed/iHUVKQV8mPc?showinfo=0&enablejsapi=1&origin=https://www.magicianmayank.com"
-					frameborder="1"
+					frameBorder="1"
 					allow="accelerometer; autoplay; encrypted-media;"
-					allowfullscreen="true"
+					allowFullScreen={true}
 					title="Faded"
 				></iframe>
 			</div>

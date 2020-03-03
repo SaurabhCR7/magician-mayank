@@ -64,7 +64,7 @@ function Gallery() {
 			<button className="gallery-view-btn" onClick={handleViewBtn}>
 				VIEW MORE &nbsp;{' '}
 				<i
-					class="fas fa-chevron-right"
+					className="fas fa-chevron-right"
 					style={{ transform: `rotate(${angle})` }}
 				></i>
 			</button>

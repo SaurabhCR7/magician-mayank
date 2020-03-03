@@ -49,7 +49,7 @@ function Contact() {
 				</a>
 			</div>
 			<h3 className="contact-phone" data-aos="fade-up">
-				<i class="fas fa-phone-volume"></i> +919582589350
+				<i className="fas fa-phone-volume"></i> +919582589350
 			</h3>
 		</div>
 	);
