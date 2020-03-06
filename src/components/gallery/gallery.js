@@ -63,14 +63,14 @@ function Gallery() {
 			<MediaQuery minDeviceWidth={601}>
 				<div className="gallery-main-section">
 					<div className="gallery-left-images" data-aos="fade-right" >
-						<img src={leftPic} alt="leftPic" itemprop="photo"/>
+						<img src={leftPic} alt="Best Magician in Delhi" itemprop="photo"/>
 					</div>
 					<div className="gallery-right-images">
 						<div className="gallery-right-image-1" data-aos="fade-left">
-							<img src={rightPic1} alt="rightPic1" itemprop="photo"/>
+							<img src={rightPic1} alt="Best Magician in Delhi" itemprop="photo"/>
 						</div>
 						<div className="gallery-right-image-2" data-aos="fade-up">
-							<img src={rightPic2} alt="rightPic2" itemprop="photo"/>
+							<img src={rightPic2} alt="Best Magician in Delhi" itemprop="photo"/>
 						</div>
 					</div>
 				</div>
@@ -101,67 +101,67 @@ function Gallery() {
 			<MediaQuery maxDeviceWidth={600}>
 				<Slide {...properties} className="gallery-slide-container">
 					<div className="each-slide">
-						<img src={leftPic} alt="pic" height="500px" width="100%" itemprop="photo"/>
+						<img src={leftPic} alt="Best Magician in Delhi" height="500px" width="100%" itemprop="photo"/>
 					</div>
 					<div className="each-slide">
-						<img src={rightPic1} alt="pic" height="300px" width="100%" itemprop="photo"/>
+						<img src={rightPic1} alt="Best Magician in Delhi" height="300px" width="100%" itemprop="photo"/>
 					</div>
 					<div className="each-slide">
-						<img src={rightPic2} alt="pic" height="300px" width="100%" itemprop="photo"/>
+						<img src={rightPic2} alt="Best Magician in Delhi" height="300px" width="100%" itemprop="photo"/>
 					</div>
 					<div className="each-slide">
-						<img src={p1} alt="pic" height="300px" width="100%" itemprop="photo"/>
+						<img src={p1} alt="Best Magician in Delhi" height="300px" width="100%" itemprop="photo"/>
 					</div>
 					<div className="each-slide">
-						<img src={p2} alt="pic" height="300px" width="100%" itemprop="photo"/>
+						<img src={p2} alt="Best Magician in Delhi" height="300px" width="100%" itemprop="photo"/>
 					</div>
 					<div className="each-slide">
-						<img src={p3} alt="pic" height="300px" width="100%" itemprop="photo"/>
+						<img src={p3} alt="Best Magician in Delhi" height="300px" width="100%" itemprop="photo"/>
 					</div>
 					<div className="each-slide">
-						<img src={p5} alt="pic" height="300px" width="100%" itemprop="photo"/>
+						<img src={p5} alt="Best Magician in Delhi" height="300px" width="100%" itemprop="photo"/>
 					</div>
 					<div className="each-slide">
-						<img src={p6} alt="pic" height="300px" width="100%" itemprop="photo"/>
+						<img src={p6} alt="Best Magician in Delhi" height="300px" width="100%" itemprop="photo"/>
 					</div>
 					<div className="each-slide">
-						<img src={p7} alt="pic" height="300px" width="100%" itemprop="photo"/>
+						<img src={p7} alt="Best Magician in Delhi" height="300px" width="100%" itemprop="photo"/>
 					</div>
 					<div className="each-slide">
-						<img src={p8} alt="pic" height="500px" width="100%" itemprop="photo"/>
+						<img src={p8} alt="Best Magician in Delhi" height="500px" width="100%" itemprop="photo"/>
 					</div>
 					<div className="each-slide">
-						<img src={p9} alt="pic" height="300px" width="100%" itemprop="photo"/>
+						<img src={p9} alt="Best Magician in Delhi" height="300px" width="100%" itemprop="photo"/>
 					</div>
 					<div className="each-slide">
-						<img src={p10} alt="pic" height="300px" width="100%" itemprop="photo"/>
+						<img src={p10} alt="Best Magician in Delhi" height="300px" width="100%" itemprop="photo"/>
 					</div>
 					<div className="each-slide">
-						<img src={p11} alt="pic" height="300px" width="100%" itemprop="photo"/>
+						<img src={p11} alt="Best Magician in Delhi" height="300px" width="100%" itemprop="photo"/>
 					</div>
 					<div className="each-slide">
-						<img src={p12} alt="pic" height="300px" width="100%" itemprop="photo"/>
+						<img src={p12} alt="Best Magician in Delhi" height="300px" width="100%" itemprop="photo"/>
 					</div>
 					<div className="each-slide">
-						<img src={p13} alt="pic" height="300px" width="100%" itemprop="photo"/>
+						<img src={p13} alt="Best Magician in Delhi" height="300px" width="100%" itemprop="photo"/>
 					</div>
 					<div className="each-slide">
-						<img src={p14} alt="pic" height="500px" width="100%" itemprop="photo"/>
+						<img src={p14} alt="Best Magician in Delhi" height="500px" width="100%" itemprop="photo"/>
 					</div>
 					<div className="each-slide">
-						<img src={p16} alt="pic" height="300px" width="100%" itemprop="photo"/>
+						<img src={p16} alt="Best Magician in Delhi" height="300px" width="100%" itemprop="photo"/>
 					</div>
 					<div className="each-slide">
-						<img src={p17} alt="pic" height="500px" width="100%" itemprop="photo"/>
+						<img src={p17} alt="Best Magician in Delhi" height="500px" width="100%" itemprop="photo"/>
 					</div>
 					<div className="each-slide">
-						<img src={p18} alt="pic" height="300px" width="100%" itemprop="photo"/>
+						<img src={p18} alt="Best Magician in Delhi" height="300px" width="100%" itemprop="photo"/>
 					</div>
 					<div className="each-slide">
-						<img src={p19} alt="pic" height="300px" width="100%" itemprop="photo"/>
+						<img src={p19} alt="Best Magician in Delhi" height="300px" width="100%" itemprop="photo"/>
 					</div>
 					<div className="each-slide">
-						<img src={p20} alt="pic" height="300px" width="100%" itemprop="photo"/>
+						<img src={p20} alt="Best Magician in Delhi" height="300px" width="100%" itemprop="photo"/>
 					</div>
 				</Slide>
 				<br></br><br></br>
