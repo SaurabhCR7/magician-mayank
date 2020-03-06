@@ -1,5 +1,4 @@
 import React from 'react';
-import { SnackbarProvider } from 'notistack';
 import './App.css';
 
 import Navbar from './components/navbar/navbar';
@@ -70,9 +69,7 @@ function App() {
 			<br></br>
 			<br></br>
 			<br></br>
-			<SnackbarProvider maxSnack={3}>
-				<Book />
-			</SnackbarProvider>
+			<Book />
 			<Social />
 			<Footer />
 		</div>

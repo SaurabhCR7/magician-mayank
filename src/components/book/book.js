@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { withSnackbar } from 'notistack';
 import './css/book.css';
 
 function Book(props) {
@@ -32,13 +31,7 @@ function Book(props) {
 
 	const submitHandler = e => {
 		e.preventDefault();
-		props.enqueueSnackbar('Thank You For Submitting the form!', {
-			variant: 'success',
-			anchorOrigin: {
-				vertical: 'bottom',
-				horizontal: 'right'
-			}
-		});
+		alert("Thank You For Submitting the form!");
 		axios
 			.post('https://mayankthemagician.herokuapp.com/', {
 				name: name,
@@ -137,4 +130,4 @@ function Book(props) {
 	);
 }
 
-export default withSnackbar(Book);
+export default Book;
