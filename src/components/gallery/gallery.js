@@ -40,15 +40,15 @@ function Gallery() {
 	const handleViewBtn = () => {
 		setCount(count + 1);
 		if (count % 2 === 0) {
-			setAngle('90deg');
+			setHide('LESS');
 			setShowSub('');
 		} else {
-			setAngle('0deg');
+			setHide('MORE');
 			setShowSub('none');
 		}
 	};
 	const [count, setCount] = useState(0);
-	const [angle, setAngle] = useState('0deg');
+	const [hide, setHide] = useState('MORE');
 	const [showSub, setShowSub] = useState('none');
 	return (
 		<div className="gallery-container" id="gallery">
@@ -75,11 +75,7 @@ function Gallery() {
 					</div>
 				</div>
 				<button className="gallery-view-btn" onClick={handleViewBtn}>
-					VIEW MORE &nbsp;{' '}
-					<i
-						className="fas fa-chevron-right"
-						style={{ transform: `rotate(${angle})` }}
-					></i>
+					SHOW {hide} 
 				</button>
 				<div className="gallery-subsection" style={{ display: `${showSub}` }}>
 					<SubGallery image={p1} title={'NSUT'} />
