@@ -22,7 +22,7 @@ import Background5 from './components/quote/images/background5.png';
 
 function App() {
 	return (
-		<div className="App">
+		<div className="App" itemscope itemtype="http://schema.org/Person">
 			<Navbar />
 			<Home />
 			<About />

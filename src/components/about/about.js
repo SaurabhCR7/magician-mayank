@@ -4,21 +4,24 @@ import aboutImg from './images/about.jpg';
 
 function About() {
 	return (
-		<div className="about-container" id="about">
+		<div className="about-container" id="about" itemscope itemtype="http://schema.org/Person">
 			<div className="about-section">
 				<img
 					src={aboutImg}
 					data-aos="fade-right"
 					alt="about"
+					itemprop="photo"
 				/>
 				<div className="about-content-container" data-aos="fade-left">
 					<h1
 						className="about-section-heading"
+						itemprop="description"
 					>
 						WHO AM I?
 					</h1>
 					<h2
 						className="about-section-content"
+						itemprop="description"
 					>
 						Magician Mayank is a theatre and corporate magician, who performs Visual Magic Worldwide. You can hire him for a Corporate Event, Product Launch, Brand promotion. <br />
 						<br />

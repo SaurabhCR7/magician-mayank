@@ -36,7 +36,7 @@ function Videos() {
 		);
 	};
 	return (
-		<div className="videos-container" id="videos">
+		<div className="videos-container" id="videos" itemscope itemtype="http://schema.org/VideoObject">
 			<h1
 				className="videos-heading"
 				data-aos="fade-up"
@@ -61,6 +61,7 @@ function Videos() {
 					allow="accelerometer; autoplay; encrypted-media;"
 					allowFullScreen={true}
 					title="52 Shades Of Red"
+					itemprop="thumbnail"
 				></iframe>
 				<iframe
 					data-aos="fade-left"
@@ -71,6 +72,7 @@ function Videos() {
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowFullScreen={true}
 					title="Teaser"
+					itemprop="thumbnail"
 				></iframe>
 			</div>
 			<br />
@@ -81,6 +83,7 @@ function Videos() {
 				data-aos="fade-up"
 				data-aos-delay="70"
 				data-aos-duration="1200"
+				itemprop="thumbnail"	
 			>
 				GLOBALLY PUBLISHED MAGIC TRICKS
 			</h1>
@@ -92,6 +95,7 @@ function Videos() {
 					allow="accelerometer; autoplay; encrypted-media;"
 					allowFullScreen={true}
 					title="Extraction"
+					itemprop="thumbnail"
 				></iframe>
 				<iframe
 					data-aos="fade-left"
@@ -100,6 +104,7 @@ function Videos() {
 					allow="accelerometer; autoplay; encrypted-media;"
 					allowFullScreen={true}
 					title="Faded"
+					itemprop="thumbnail"
 				></iframe>
 			</div>
 			<br />
