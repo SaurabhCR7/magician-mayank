@@ -7,7 +7,7 @@
 .social-container .social-heading {
   margin-bottom: 50px;
   width: 100%;
-  font-family: Karla;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 2rem;
@@ -28,9 +28,9 @@
 
 .social-container .social-links-container .social-link {
   border-radius: 50%;
-  background-color: white;
-  height: 80px;
-  width: 80px;
+  background-color: transparent;
+  height: 60px;
+  width: 60px;
   text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -42,58 +42,13 @@
   transition: all 0.5s ease !important;
 }
 
-.social-container .social-links-container .social-link i {
+.social-container .social-links-container .social-link img {
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
       align-self: center;
-  text-align: center;
-  font-size: 2rem;
-  color: #1e1d23;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-.social-container .social-links-container .social-link:nth-child(1):hover {
-  background-color: #2d72b6;
-}
-
-.social-container .social-links-container .social-link:nth-child(1):hover i {
-  color: white;
-}
-
-.social-container .social-links-container .social-link:nth-child(2):hover {
-  background-color: #d608a9;
-}
-
-.social-container .social-links-container .social-link:nth-child(2):hover i {
-  color: white;
-}
-
-.social-container .social-links-container .social-link:nth-child(3):hover {
-  background-color: dodgerblue;
-}
-
-.social-container .social-links-container .social-link:nth-child(3):hover i {
-  color: white;
-}
-
-.social-container .social-links-container .social-link:nth-child(4):hover {
-  background-color: #145aa0;
-}
-
-.social-container .social-links-container .social-link:nth-child(4):hover i {
-  color: white;
-}
-
-.social-container .social-links-container .social-link:nth-child(5):hover {
-  background-color: #d14242;
-}
-
-.social-container .social-links-container .social-link:nth-child(5):hover i {
-  color: white;
+  height: 60px;
+  width: 60px;
 }
 
 @media screen and (max-width: 700px) {
@@ -101,24 +56,12 @@
     font-size: 1.2rem;
   }
   .social-container .social-links-container .social-link {
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
   }
-  .social-container .social-links-container .social-link i {
-    font-size: 1.2rem;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .social-container .social-links-container {
-    width: 90%;
-  }
-  .social-container .social-links-container .social-link {
-    height: 40px;
-    width: 40px;
-  }
-  .social-container .social-links-container .social-link i {
-    font-size: 1.2rem;
+  .social-container .social-links-container .social-link img {
+    height: 30px;
+    width: 30px;
   }
 }
 /*# sourceMappingURL=social.css.map */

@@ -6,7 +6,7 @@
 .contact-container .contact-heading {
   margin-top: 0px;
   text-align: center;
-  font-family: Karla;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 4rem;
@@ -38,7 +38,6 @@
 }
 
 .contact-container .contact-phone {
-  font-family: Karla;
   font-weight: bold;
   font-size: 2rem;
   margin-top: 50px;

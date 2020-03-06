@@ -1,5 +1,10 @@
 import React from 'react';
 import './css/social.css';
+import fb from './images/facebook.svg';
+import insta from './images/instagram.svg';
+import twitter from './images/twitter.svg';
+import linkedin from './images/linkedin.svg';
+import yt from './images/youtube.svg';
 
 function Social() {
 	return (
@@ -8,14 +13,14 @@ function Social() {
 				ON SOCIAL NETWORKS
 			</h1>
 			<div className="social-links-container">
-				<a
+				 <a
 					href="https://www.facebook.com/mayankthemagician"
 					className="social-link"
 					target="_blank"
 					rel="noopener noreferrer"
 					data-aos="fade-right"
 				>
-					<i className="fab fa-facebook-f"></i>
+					<img src={fb} alt="fb" />
 				</a>
 				<a
 					href="https://www.instagram.com/magicianmayank/"
@@ -24,7 +29,7 @@ function Social() {
 					rel="noopener noreferrer"
 					data-aos="fade-up-right"
 				>
-					<i className="fab fa-instagram"></i>
+					<img src={insta} alt="insta" />
 				</a>
 				<a
 					href="https://twitter.com/MShekhar1998"
@@ -33,7 +38,7 @@ function Social() {
 					rel="noopener noreferrer"
 					data-aos="fade-up"
 				>
-					<i className="fab fa-twitter"></i>
+					<img src={twitter} alt="twitter" />
 				</a>
 				<a
 					href="https://www.linkedin.com/in/mayank-shekhar-82248aa2/"
@@ -42,7 +47,7 @@ function Social() {
 					rel="noopener noreferrer"
 					data-aos="fade-up-left"
 				>
-					<i className="fab fa-linkedin-in"></i>
+					<img src={linkedin} alt="linkedin" />
 				</a>
 				<a
 					href="https://www.youtube.com/channel/UCygVdgXP52u4sesm8Ei2tuA"
@@ -51,7 +56,7 @@ function Social() {
 					rel="noopener noreferrer"
 					data-aos="fade-left"
 				>
-					<i className="fab fa-youtube"></i>
+					<img src={yt} alt="yt" />
 				</a>
 			</div>
 		</div>
