@@ -51,7 +51,7 @@ function Book(props) {
 	return (
 		<div className="book-container" id="book">
 			<p className="book-heading" data-aos="fade-up">
-				BOOK FOR A SHOW
+				HIRE FOR AN EVENT
 			</p>
 			<br />
 			<br />
