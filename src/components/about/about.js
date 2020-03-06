@@ -23,7 +23,7 @@ function About() {
 					</h1>
 					<h2 className="about-section-content" itemprop="description">
 						<strong>Magician Mayank</strong> is one of the <strong>Best Magician in Delhi India</strong>. He is a
-						<strong>Theatre and Corporate Magician</strong>, who performs Visual Magic Worldwide.
+						<strong> Theatre and Corporate Magician</strong>, who performs Visual Magic Worldwide.
 						Hire for an Event incuding Corporate Event, Product Launch, Brand
 						promotion, Birthday Party. <br />
 						<br />
