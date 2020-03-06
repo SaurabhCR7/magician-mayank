@@ -36,7 +36,12 @@ function Videos() {
 		);
 	};
 	return (
-		<div className="videos-container" id="videos" itemscope itemtype="http://schema.org/VideoObject">
+		<div
+			className="videos-container"
+			id="videos"
+			itemscope
+			itemtype="http://schema.org/VideoObject"
+		>
 			<h1
 				className="videos-heading"
 				data-aos="fade-up"
@@ -83,7 +88,7 @@ function Videos() {
 				data-aos="fade-up"
 				data-aos-delay="70"
 				data-aos-duration="1200"
-				itemprop="thumbnail"	
+				itemprop="thumbnail"
 			>
 				GLOBALLY PUBLISHED MAGIC TRICKS
 			</h1>

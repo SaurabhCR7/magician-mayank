@@ -15,10 +15,10 @@
 	.main-subvideos {
 		display: flex;
 		justify-content: space-around;
-		iframe{
-				width:49%;
-				height:400px;
-			}
+		iframe {
+			width: 49%;
+			height: 400px;
+		}
 	}
 	.subvideos-heading {
 		margin: 0px;
@@ -34,39 +34,37 @@
 }
 
 @media screen and (min-width: 1700px) {
-	.videos-container{
-		.main-subvideos{
-			iframe{
-				width:49%;
-				height:500px;
-			}	
+	.videos-container {
+		.main-subvideos {
+			iframe {
+				width: 49%;
+				height: 500px;
+			}
 		}
 	}
 }
 
-
 @media screen and (max-width: 600px) {
-	.videos-container{
-		.videos-heading{
-		font-size: 1.8rem;
-		padding-top: 50px;
-		margin-bottom: 50px;
+	.videos-container {
+		.videos-heading {
+			font-size: 1.8rem;
+			padding-top: 50px;
+			margin-bottom: 50px;
 		}
-		.main-subvideos{
+		.main-subvideos {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
-			iframe{
-				margin-left:auto;
-				margin-right:auto;
-				width:95%;
-				height:250px;
+			iframe {
+				margin-left: auto;
+				margin-right: auto;
+				width: 95%;
+				height: 250px;
 				margin-bottom: 10px;
 			}
-			
 		}
-		.subvideos-heading{
-			line-height:40px ;
+		.subvideos-heading {
+			line-height: 40px;
 			font-size: 1.8rem;
 			margin-bottom: 60px;
 			padding-top: 60px;
