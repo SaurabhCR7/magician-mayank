@@ -41,7 +41,7 @@ function Testimonials() {
 						<TestimonialsBox
 							image={Test1}
 							quote={
-								'"Magician Mayank made our Diwali Party so fabulous, he is an amazing magician"'
+								'"Mayank made our Diwali Party so fabulous, he is an amazing magician"'
 							}
 							name={'~ Ms. Neelu, Sara Int. Pvt. Ltd.'}
 							link={'https://youtu.be/wHXALGYjeXk'}
@@ -50,7 +50,7 @@ function Testimonials() {
 					<div className="each-slide">
 						<TestimonialsBox
 							image={Test2}
-							quote={'"You’re very very Good Magician Mayank"'}
+							quote={'"You’re very very Good Mayank"'}
 							name={'~ SHAHNAZ HUSSAIN'}
 						/>
 					</div>
