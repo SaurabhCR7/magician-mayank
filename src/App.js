@@ -13,11 +13,11 @@ import Book from './components/book/book';
 import Contact from './components/contact/contact';
 import Testimonials from './components/testimonials/testimonials';
 
-import Background1 from './components/quote/images/background1.png';
-import Background2 from './components/quote/images/background2.png';
+import Background1 from './components/quote/images/background1.jpg';
+import Background2 from './components/quote/images/background2.jpg';
 import Background3 from './components/quote/images/background3.jpg';
-import Background4 from './components/quote/images/background4.png';
-import Background5 from './components/quote/images/background5.png';
+import Background4 from './components/quote/images/background4.jpg';
+import Background5 from './components/quote/images/background5.jpg';
 
 function App() {
 	return (
