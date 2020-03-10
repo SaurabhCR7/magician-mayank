@@ -48,7 +48,8 @@
 		.quote-container {
 			height: 130px;
 			display: block;
-			background-size: cover;
+			background-size: auto;
+			background-position: center;
 			.quote-text {
 				font-size: 0.7rem;
 				letter-spacing: 0.1em;
