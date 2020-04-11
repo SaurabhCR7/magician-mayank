@@ -48,9 +48,6 @@ function Contact() {
 					<img src={Instagram} alt="instagram" />
 				</a>
 			</div>
-			<h3 className="contact-phone" data-aos="fade-up">
-				<i className="fas fa-phone-volume"></i> +919582589350
-			</h3>
 		</div>
 	);
 }

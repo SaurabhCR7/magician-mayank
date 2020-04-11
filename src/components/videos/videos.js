@@ -61,11 +61,11 @@ function Videos() {
 			<div className="main-subvideos">
 				<iframe
 					data-aos="fade-right"
-					src="https://www.youtube.com/embed/hZhcCu-uzD4?showinfo=0&enablejsapi=1&origin=https://www.magicianmayank.com"
+					src="https://www.youtube.com/embed/fGaM4ym38q8?showinfo=0&enablejsapi=1&origin=https://www.magicianmayank.com"
 					frameBorder="1"
 					allow="accelerometer; autoplay; encrypted-media;"
 					allowFullScreen={true}
-					title="52 Shades Of Red"
+					title="Stage & Roaming interactive Illusions Performed at IndoRussian Friendship Celebration 2020"
 					itemprop="thumbnail"
 				></iframe>
 				<iframe

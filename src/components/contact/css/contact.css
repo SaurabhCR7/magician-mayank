@@ -39,18 +39,6 @@
           box-shadow: none;
 }
 
-.contact-container .contact-phone {
-  font-weight: bold;
-  font-size: 2rem;
-  margin-top: 50px;
-  font-style: italic;
-  color: #b92e29;
-}
-
-.contact-container .contact-phone i {
-  color: #b92e29;
-}
-
 @media screen and (max-width: 1050px) {
   .contact-container .contact-card-container img {
     height: 230px;
@@ -75,12 +63,6 @@
     height: 100px;
     width: 70px;
     border-radius: 5px;
-  }
-  .contact-container .contact-phone {
-    font-family: Karla;
-    font-weight: bold;
-    font-size: 1rem;
-    margin-top: 20px;
   }
 }
 /*# sourceMappingURL=contact.css.map */
