@@ -72,11 +72,11 @@ function Videos() {
 					data-aos="fade-left"
 					width="560"
 					height="315"
-					src="https://www.youtube.com/embed/9jCPorZO5mA?showinfo=0&enablejsapi=1&origin=https://www.magicianmayank.com"
+					src="https://www.youtube.com/embed/3HsGh_zs-Vw?showinfo=0&enablejsapi=1&origin=https://www.magicianmayank.com"
 					frameBorder="1"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowFullScreen={true}
-					title="Teaser"
+					title="Promo 2020"
 					itemprop="thumbnail"
 				></iframe>
 			</div>
