@@ -108,6 +108,8 @@ function Gallery() {
 					<SubGallery image={p18} title={'CORPORATE'} />
 					<SubGallery image={p19} title={'CCI'} />
 					<SubGallery image={p20} title={'CCI'} />
+					<SubGallery image={p21} title={'CCI'} />
+					<SubGallery image={p22} title={'INDO RUSSIAN'} />
 				</div>
 			</MediaQuery>
 			<MediaQuery maxDeviceWidth={600}>
