@@ -25,12 +25,14 @@ import p17 from './images/17.jpg';
 import p18 from './images/18.jpg';
 import p19 from './images/19.jpg';
 import p20 from './images/20.jpg';
+import p21 from './images/21.jpg';
+import p22 from './images/22.jpg';
 
 const properties = {
 	duration: 15000,
 	transitionDuration: 500,
 	infinite: true,
-	arrows: true
+	arrows: true,
 };
 
 function Gallery() {
@@ -293,6 +295,24 @@ function Gallery() {
 					<div className="each-slide">
 						<img
 							src={p20}
+							alt="Best Magician in Delhi"
+							height="300px"
+							width="100%"
+							itemprop="photo"
+						/>
+					</div>
+					<div className="each-slide">
+						<img
+							src={p21}
+							alt="Best Magician in Delhi"
+							height="300px"
+							width="100%"
+							itemprop="photo"
+						/>
+					</div>
+					<div className="each-slide">
+						<img
+							src={p22}
 							alt="Best Magician in Delhi"
 							height="300px"
 							width="100%"
