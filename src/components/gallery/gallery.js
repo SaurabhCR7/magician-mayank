@@ -31,7 +31,7 @@ import p22 from './images/22.jpg';
 const properties = {
 	duration: 15000,
 	transitionDuration: 500,
-	infinite: true,
+	infinite: false,
 	arrows: true,
 };
 
