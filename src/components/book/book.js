@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 import './css/book.css';
 
 function Book(props) {
@@ -10,41 +9,44 @@ function Book(props) {
 	const [subject, setSubject] = useState('');
 	const [description, setDescription] = useState('');
 
-	const nameHandler = e => {
+	const nameHandler = (e) => {
 		setName(e.target.value);
 	};
-	const phoneHandler = e => {
+	const phoneHandler = (e) => {
 		setPhone(e.target.value);
 	};
-	const emailHandler = e => {
+	const emailHandler = (e) => {
 		setEmail(e.target.value);
 	};
-	const websiteHandler = e => {
+	const websiteHandler = (e) => {
 		setWebsite(e.target.value);
 	};
-	const subjectHandler = e => {
+	const subjectHandler = (e) => {
 		setSubject(e.target.value);
 	};
-	const descriptionHandler = e => {
+	const descriptionHandler = (e) => {
 		setDescription(e.target.value);
 	};
 
-	const submitHandler = e => {
+	const submitHandler = (e) => {
 		e.preventDefault();
-		alert("Thank You For Submitting the form!");
-		axios
-			.post('https://mayankthemagician.herokuapp.com/', {
+		alert('Thank You For Submitting the form!');
+		fetch('https://mayankthemagician.herokuapp.com/', {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({
 				name: name,
 				phone: phone,
 				email: email,
 				website: website,
 				subject: subject,
-				description: description
-			})
+				description: description,
+			}),
+		})
 			.then(() => {
 				console.log('Mail sent!');
 			})
-			.catch(err => {
+			.catch((err) => {
 				console.log(err);
 			});
 	};
